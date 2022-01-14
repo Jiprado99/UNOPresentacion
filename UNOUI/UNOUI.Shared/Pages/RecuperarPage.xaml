@@ -13,6 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
             <TextBlock Text="Palabra" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
@@ -37,11 +38,33 @@
                     </Style>
                 </ListView.ItemContainerStyle>
                 <ListView.ItemTemplate>
-                    <DataTemplate>
-                        
+                    <DataTemplate x:DataType="model:Palabra">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" VerticalAlignment="Center" FontSize="14" TextWrapping="Wrap" Text="{x:Bind Nombre}"/>
+                            <TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="14" TextWrapping="Wrap" Text="{x:Bind FechaHora}"/>
+                        </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </ScrollViewer>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="BtnRecuperarPalabra" FontSize="30" Content="Recuperar Palabra" Tapped="BtnRecuperarPalabra_Tapped"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>

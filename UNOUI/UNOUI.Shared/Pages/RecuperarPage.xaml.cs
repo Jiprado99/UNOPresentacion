@@ -33,14 +33,19 @@ namespace UNOUI.Pages
 
         public ObservableCollection<Palabra> Palabras { get; set; }
 
-        private async void BtnRecuperar_Click(object sender, RoutedEventArgs e)
+        private async void BtnRecuperarPalabra_Tapped(object sender, RoutedEventArgs e)
         {
             var response = await ApiService.RecuperarPalabraAsync();
+            //response.ContinueWith(t => Presentar(response.Result));
+            Presentar(response);
+        }
 
+        private void Presentar(Response response)
+        {
             if (!response.IsSuccess)
             {
-                var messageDialog = new MessageDialog(response.Message, "Aceptar");
-                await messageDialog.ShowAsync();
+                var messageDialog = new MessageDialog(response.Message, "Error");
+                messageDialog.ShowAsync();
                 return;
             }
 
@@ -48,9 +53,19 @@ namespace UNOUI.Pages
 
             if (palabras == null)
             {
-                new MessageDialog("Palabras es null", "Aceptar");
+                new MessageDialog("No se han podido encontrar palabras.", "Error").ShowAsync();
                 return;
             }
+
+            Palabras = new ObservableCollection<Palabra>(palabras);
+            RefreshList();
+        }
+
+        private void RefreshList()
+        {
+            LtvPalabras.ItemsSource = null;
+            LtvPalabras.Items.Clear();
+            LtvPalabras.ItemsSource = Palabras;
         }
     }
 }
