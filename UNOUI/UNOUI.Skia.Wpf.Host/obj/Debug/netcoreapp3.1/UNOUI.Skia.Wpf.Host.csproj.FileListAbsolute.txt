@@ -1,0 +1,6 @@
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\UNOUI.Skia.Wpf.Host.csproj.AssemblyReference.cache
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\UNOUI.Skia.Wpf.Host_Content.g.cs
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\UNOUI.Skia.Wpf.Host_MarkupCompile.cache
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\UNOUI.Skia.Wpf.Host_MarkupCompile.lref

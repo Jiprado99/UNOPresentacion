@@ -31,20 +31,22 @@ namespace UNOUI.Pages
             this.InitializeComponent();
         }
 
-        private async void BtnAgregar_Click(object sender, RoutedEventArgs e)
+        private void BtnAgregar_Tapped(object sender, RoutedEventArgs e)
         {
-            var response = await ApiService.PostAsync("Palabras", TxtPalabra.Text);
+            var response = ApiService.PostAsync("Palabras", TxtPalabra.Text);
+            response.ContinueWith(t => IsSucces(response.Result));
 
+           
+        }
+
+        private void IsSucces(Response response)
+        {
             if (!response.IsSuccess)
             {
                 var messageDialog = new MessageDialog(response.Message, "Error");
-                await messageDialog.ShowAsync();
+                messageDialog.ShowAsync();
                 return;
             }
-
-
         }
-
-
     }
 }

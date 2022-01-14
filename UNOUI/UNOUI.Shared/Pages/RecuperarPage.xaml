@@ -4,12 +4,44 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:UNOUI.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:model="using:UNOUI.Models"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        
-        <Button x:Name="BtnRecuperar" Content="Recuperar" HorizontalAlignment="Center" FontSize="60" Click="BtnRecuperar_Click"/>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Palabra" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Palabra" FontWeight="Bold" FontSize="25" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Column="1" Text="Fecha y Hora" FontWeight="Bold" FontSize="25" HorizontalAlignment="Center"/>
+            </Grid>
+            <Border Background="DimGray" Height="2" Margin="0,5"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1">
+            <ListView x:Name="LtvPalabras" ItemsSource="{x:Bind Palabras}">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
     </Grid>
 </Page>

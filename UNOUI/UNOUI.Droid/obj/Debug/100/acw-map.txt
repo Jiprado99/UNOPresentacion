@@ -1,6 +1,9 @@
-UNOUI.MainPage, UNOUI.Droid;crc6452d813e093061608.MainPage
-UNOUI.MainPage;crc6452d813e093061608.MainPage
-unoui.MainPage;crc6452d813e093061608.MainPage
+UNOUI.Pages.AgregarPage, UNOUI.Droid;crc64be8929a8e3f1e3b6.AgregarPage
+UNOUI.Pages.AgregarPage;crc64be8929a8e3f1e3b6.AgregarPage
+unoui.pages.AgregarPage;crc64be8929a8e3f1e3b6.AgregarPage
+UNOUI.Pages.MainPage, UNOUI.Droid;crc64be8929a8e3f1e3b6.MainPage
+UNOUI.Pages.MainPage;crc64be8929a8e3f1e3b6.MainPage
+unoui.pages.MainPage;crc64be8929a8e3f1e3b6.MainPage
 UNOUI.Pages.RecuperarPage, UNOUI.Droid;crc64be8929a8e3f1e3b6.RecuperarPage
 UNOUI.Pages.RecuperarPage;crc64be8929a8e3f1e3b6.RecuperarPage
 unoui.pages.RecuperarPage;crc64be8929a8e3f1e3b6.RecuperarPage

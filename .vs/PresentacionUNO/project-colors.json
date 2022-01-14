@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6279c845-92f8-4333-ab99-3d213163593c": {
+      "ProjectGuid": "6279c845-92f8-4333-ab99-3d213163593c",
+      "DisplayName": "UNOUI.Shared",
+      "ColorIndex": 0
+    },
+    "f9b5e39b-6032-4015-b4a2-8fe6d7123139": {
+      "ProjectGuid": "f9b5e39b-6032-4015-b4a2-8fe6d7123139",
+      "DisplayName": "Platforms",
+      "ColorIndex": 1
+    },
+    "234e05b3-90e5-47c8-a2f4-1c9a25fa996e": {
+      "ProjectGuid": "234e05b3-90e5-47c8-a2f4-1c9a25fa996e",
+      "DisplayName": "UNOUI.Droid",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

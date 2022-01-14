@@ -28705,43 +28705,12 @@ namespace UNOUI.Droid
 	}
 
 	/// <summary>
-	/// Builder for UNOUI.MainPage
-	/// </summary>
-	[System.Runtime.CompilerServices.CompilerGeneratedAttribute]
-	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
-	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
-	static class MetadataBuilder_710
-	{
-		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
-		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
-		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
-		internal static global::Uno.UI.DataBinding.IBindableType Build()
-		{
-			return Build(null);
-		}
-		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
-		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
-		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
-		internal static global::Uno.UI.DataBinding.IBindableType Build(global::Uno.UI.DataBinding.BindableType parent)
-		{
-			var bindableType = parent ?? new global::Uno.UI.DataBinding.BindableType(369, typeof(global::UNOUI.MainPage));
-			MetadataBuilder_393.Build(bindableType); // global::Windows.UI.Xaml.Controls.Page
-			if(parent == null)
-			{
-				bindableType.AddActivator(CreateInstance);
-			}
-			return bindableType;
-		}
-		private static object CreateInstance() => new global::UNOUI.MainPage();
-	}
-
-	/// <summary>
 	/// Builder for UNOUI.Droid.MainActivity
 	/// </summary>
 	[System.Runtime.CompilerServices.CompilerGeneratedAttribute]
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
-	static class MetadataBuilder_711
+	static class MetadataBuilder_710
 	{
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
@@ -28767,7 +28736,38 @@ namespace UNOUI.Droid
 	}
 
 	/// <summary>
-	/// Builder for UNOUI.Pages.RecuperarPage
+	/// Builder for UNOUI.Pages.AgregarPage
+	/// </summary>
+	[System.Runtime.CompilerServices.CompilerGeneratedAttribute]
+	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
+	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
+	static class MetadataBuilder_711
+	{
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
+		internal static global::Uno.UI.DataBinding.IBindableType Build()
+		{
+			return Build(null);
+		}
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
+		internal static global::Uno.UI.DataBinding.IBindableType Build(global::Uno.UI.DataBinding.BindableType parent)
+		{
+			var bindableType = parent ?? new global::Uno.UI.DataBinding.BindableType(369, typeof(global::UNOUI.Pages.AgregarPage));
+			MetadataBuilder_393.Build(bindableType); // global::Windows.UI.Xaml.Controls.Page
+			if(parent == null)
+			{
+				bindableType.AddActivator(CreateInstance);
+			}
+			return bindableType;
+		}
+		private static object CreateInstance() => new global::UNOUI.Pages.AgregarPage();
+	}
+
+	/// <summary>
+	/// Builder for UNOUI.Pages.MainPage
 	/// </summary>
 	[System.Runtime.CompilerServices.CompilerGeneratedAttribute]
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
@@ -28786,7 +28786,7 @@ namespace UNOUI.Droid
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
 		internal static global::Uno.UI.DataBinding.IBindableType Build(global::Uno.UI.DataBinding.BindableType parent)
 		{
-			var bindableType = parent ?? new global::Uno.UI.DataBinding.BindableType(369, typeof(global::UNOUI.Pages.RecuperarPage));
+			var bindableType = parent ?? new global::Uno.UI.DataBinding.BindableType(369, typeof(global::UNOUI.Pages.MainPage));
 			MetadataBuilder_393.Build(bindableType); // global::Windows.UI.Xaml.Controls.Page
 			if(parent == null)
 			{
@@ -28794,7 +28794,41 @@ namespace UNOUI.Droid
 			}
 			return bindableType;
 		}
+		private static object CreateInstance() => new global::UNOUI.Pages.MainPage();
+	}
+
+	/// <summary>
+	/// Builder for UNOUI.Pages.RecuperarPage
+	/// </summary>
+	[System.Runtime.CompilerServices.CompilerGeneratedAttribute]
+	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
+	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
+	static class MetadataBuilder_713
+	{
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
+		internal static global::Uno.UI.DataBinding.IBindableType Build()
+		{
+			return Build(null);
+		}
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
+		internal static global::Uno.UI.DataBinding.IBindableType Build(global::Uno.UI.DataBinding.BindableType parent)
+		{
+			var bindableType = parent ?? new global::Uno.UI.DataBinding.BindableType(370, typeof(global::UNOUI.Pages.RecuperarPage));
+			MetadataBuilder_393.Build(bindableType); // global::Windows.UI.Xaml.Controls.Page
+			if(parent == null)
+			{
+				bindableType.AddActivator(CreateInstance);
+			}
+			bindableType.AddProperty("Palabras", typeof(global::System.Collections.ObjectModel.ObservableCollection<global::UNOUI.Models.Palabra>), GetPalabras, SetPalabras);
+			return bindableType;
+		}
 		private static object CreateInstance() => new global::UNOUI.Pages.RecuperarPage();
+		private static object GetPalabras(object instance,  Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => ((global::UNOUI.Pages.RecuperarPage)instance).Palabras;
+		private static void SetPalabras(object instance, object value, Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => ((global::UNOUI.Pages.RecuperarPage)instance).Palabras = (global::System.Collections.ObjectModel.ObservableCollection<global::UNOUI.Models.Palabra>)value;
 	}
 
 	[System.Runtime.CompilerServices.CompilerGeneratedAttribute]
@@ -28802,7 +28836,7 @@ namespace UNOUI.Droid
 	[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
 	public class BindableMetadataProvider : global::Uno.UI.DataBinding.IBindableMetadataProvider
 	{
-		static global::System.Collections.Hashtable _bindableTypeCacheByFullName = new global::System.Collections.Hashtable(661);
+		static global::System.Collections.Hashtable _bindableTypeCacheByFullName = new global::System.Collections.Hashtable(662);
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity", Justification="Must be ignored even if generated code is checked.")]
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1506:AvoidExcessiveClassCoupling", Justification = "Must be ignored even if generated code is checked.")]
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
@@ -29532,6 +29566,7 @@ namespace UNOUI.Droid
 		private global::Uno.UI.DataBinding.IBindableType _bindableType710;
 		private global::Uno.UI.DataBinding.IBindableType _bindableType711;
 		private global::Uno.UI.DataBinding.IBindableType _bindableType712;
+		private global::Uno.UI.DataBinding.IBindableType _bindableType713;
 		public global::Uno.UI.DataBinding.IBindableType GetBindableTypeByFullName(string fullName)
 		{
 			switch(fullName)
@@ -33796,24 +33831,30 @@ namespace UNOUI.Droid
 					_bindableType709 = MetadataBuilder_709.Build();
 				}
 				return _bindableType709;
-				case "UNOUI.MainPage":
+				case "UNOUI.Droid.MainActivity":
 				if(_bindableType710 == null)
 				{
 					_bindableType710 = MetadataBuilder_710.Build();
 				}
 				return _bindableType710;
-				case "UNOUI.Droid.MainActivity":
+				case "UNOUI.Pages.AgregarPage":
 				if(_bindableType711 == null)
 				{
 					_bindableType711 = MetadataBuilder_711.Build();
 				}
 				return _bindableType711;
-				case "UNOUI.Pages.RecuperarPage":
+				case "UNOUI.Pages.MainPage":
 				if(_bindableType712 == null)
 				{
 					_bindableType712 = MetadataBuilder_712.Build();
 				}
 				return _bindableType712;
+				case "UNOUI.Pages.RecuperarPage":
+				if(_bindableType713 == null)
+				{
+					_bindableType713 = MetadataBuilder_713.Build();
+				}
+				return _bindableType713;
 				default:
 				return null;
 			}

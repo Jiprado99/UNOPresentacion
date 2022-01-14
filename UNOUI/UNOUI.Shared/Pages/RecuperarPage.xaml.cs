@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -29,6 +30,8 @@ namespace UNOUI.Pages
         {
             this.InitializeComponent();
         }
+
+        public ObservableCollection<Palabra> Palabras { get; set; }
 
         private async void BtnRecuperar_Click(object sender, RoutedEventArgs e)
         {

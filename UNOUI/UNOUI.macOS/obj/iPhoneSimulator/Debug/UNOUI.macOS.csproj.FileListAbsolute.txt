@@ -1,0 +1,10 @@
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\_ProcessedBundleResourcesPath.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\_ProcessedContentPath.items
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\UNOUI.macOS.csproj.AssemblyReference.cache
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.macOS\obj\iPhoneSimulator\Debug\UNOUI.macOS.csproj.CoreCompileInputs.cache

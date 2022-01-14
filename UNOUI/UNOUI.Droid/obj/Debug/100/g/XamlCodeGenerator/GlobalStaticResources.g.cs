@@ -74,9 +74,10 @@ namespace UNOUI.Droid
 			if(!_stylesRegistered)
 			{
 				_stylesRegistered = true;
-				RegisterDefaultStyles_App_c8157071be3e5f9affb111932b1fb873();
-				RegisterDefaultStyles_MainPage_d0622850b088dd447d1982622fd2fcf4();
-				RegisterDefaultStyles_RecuperarPage_edfe3a9216c1fbd4abb876c06ce45be9();
+				RegisterDefaultStyles_AgregarPage_9b441e9d256e97680c184dffeeb41f79();
+				RegisterDefaultStyles_App_dd4499cf75181ab3c4c8675340b9a974();
+				RegisterDefaultStyles_MainPage_fd8ed1aa4b1ee13cc719edbe83837742();
+				RegisterDefaultStyles_RecuperarPage_170f045c361c389833c309bef0e06173();
 			}
 		}
 		// Register ResourceDictionaries using ms-appx:/// syntax, this is called for external resources
@@ -91,9 +92,10 @@ namespace UNOUI.Droid
 		internal static void RegisterResourceDictionariesBySourceLocal()
 		{
 		}
-		static partial void RegisterDefaultStyles_App_c8157071be3e5f9affb111932b1fb873();
-		static partial void RegisterDefaultStyles_MainPage_d0622850b088dd447d1982622fd2fcf4();
-		static partial void RegisterDefaultStyles_RecuperarPage_edfe3a9216c1fbd4abb876c06ce45be9();
+		static partial void RegisterDefaultStyles_AgregarPage_9b441e9d256e97680c184dffeeb41f79();
+		static partial void RegisterDefaultStyles_App_dd4499cf75181ab3c4c8675340b9a974();
+		static partial void RegisterDefaultStyles_MainPage_fd8ed1aa4b1ee13cc719edbe83837742();
+		static partial void RegisterDefaultStyles_RecuperarPage_170f045c361c389833c309bef0e06173();
 		[global::System.Obsolete("This method is provided for binary backward compatibility. It will always return null.")]
 		[global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
 		public static object FindResource(string name) => null;

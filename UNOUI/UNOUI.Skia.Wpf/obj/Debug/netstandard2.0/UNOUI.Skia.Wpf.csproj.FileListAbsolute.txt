@@ -1,0 +1,5 @@
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf\obj\Debug\netstandard2.0\UNOUI.Skia.Wpf.csproj.AssemblyReference.cache
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf\obj\Debug\netstandard2.0\UNOUI.Skia.Wpf.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf\obj\Debug\netstandard2.0\UNOUI.Skia.Wpf.AssemblyInfoInputs.cache
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf\obj\Debug\netstandard2.0\UNOUI.Skia.Wpf.AssemblyInfo.cs
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf\obj\Debug\netstandard2.0\UNOUI.Skia.Wpf.csproj.CoreCompileInputs.cache
