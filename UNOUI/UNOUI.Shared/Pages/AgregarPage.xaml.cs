@@ -31,12 +31,12 @@ namespace UNOUI.Pages
             this.InitializeComponent();
         }
 
-        private void BtnAgregar_Tapped(object sender, RoutedEventArgs e)
+        private async void BtnAgregar_Tapped(object sender, RoutedEventArgs e)
         {
-            var response = ApiService.PostAsync("Palabras", TxtPalabra.Text);
-            response.ContinueWith(t => IsSucces(response.Result));
-
-           
+            string palabra = TxtPalabra.Text;
+            TxtPalabra.Text = "";
+            TxtPalabra.Focus(FocusState.Programmatic);
+            var response = await ApiService.PostAsync("Palabras", palabra);
         }
 
         private void IsSucces(Response response)
