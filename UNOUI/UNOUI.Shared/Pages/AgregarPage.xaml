@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="UNOUI.Pages.AgregarPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UNOUI.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="0" Text="Agregar Palabras" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="Ingrese una palabra" FontSize="30" Margin="5"/>
+            <TextBox x:Name="TxtPalabra" FontSize="30" Margin="5"/>
+            <Button x:Name="BtnAgregar" Content="Agregar" FontSize="30" HorizontalAlignment="Stretch" Margin="10" Background="#dcdcdc" Click="BtnAgregar_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
