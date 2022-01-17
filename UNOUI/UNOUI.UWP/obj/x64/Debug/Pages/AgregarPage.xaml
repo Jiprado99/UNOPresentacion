@@ -17,14 +17,15 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="5*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Column="1" Grid.Row="0" Text="Agregar Palabras" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <StackPanel Grid.Row="1" Grid.Column="1">
             <TextBlock Text="Ingrese una palabra" FontSize="30" Margin="5"/>
-            <TextBox x:ConnectionId='2' x:Name="TxtPalabra" FontSize="30" Margin="5"/>
-            <Button x:ConnectionId='3' x:Name="BtnAgregar" Content="Agregar" FontSize="30" HorizontalAlignment="Stretch" Margin="10"                           />
+            <TextBox x:ConnectionId='3' x:Name="TxtPalabra" FontSize="30" Margin="5"                          />
+            <Button x:ConnectionId='4' x:Name="BtnAgregar" Content="Agregar" FontSize="30" HorizontalAlignment="Stretch" Margin="10"                           />
         </StackPanel>
+        <TextBlock x:ConnectionId='2' Grid.Row="2" Grid.Column="1" x:Name="TxtError" Text="Error" FontSize="15" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
     </Grid>
 </Page>
 

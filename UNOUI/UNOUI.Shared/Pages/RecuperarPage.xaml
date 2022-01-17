@@ -68,10 +68,11 @@
                     <Button x:Name="BtnRecuperarPalabra" FontSize="30" Content="Recuperar Palabra" Tapped="BtnRecuperarPalabra_Tapped"/>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra"/>
+                    <Button x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra" Tapped="BtnRecuperarLetra_Tapped"/>
+                    <TextBox x:Name="TxbLetra" FontSize="30" MaxLength="1"/>
                 </StackPanel>
             </Grid>
-            <TextBlock Grid.Row="1" x:Name="TxtError" Text="Error" FontSize="30" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
+            <TextBlock Grid.Row="1" x:Name="TxtError" Text="Error" FontSize="15" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
         </Grid>
     </Grid>
 </Page>

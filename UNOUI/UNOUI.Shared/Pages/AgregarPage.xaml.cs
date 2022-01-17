@@ -33,20 +33,40 @@ namespace UNOUI.Pages
 
         private async void BtnAgregar_Tapped(object sender, RoutedEventArgs e)
         {
-            string palabra = TxtPalabra.Text;
-            TxtPalabra.Text = "";
-            TxtPalabra.Focus(FocusState.Programmatic);
-            var response = await ApiService.PostAsync("Palabras", palabra);
+            SendPalabra();
         }
 
-        private void IsSucces(Response response)
+        private async void TxtPalabra_KeyUp(object sender, KeyRoutedEventArgs e)
         {
-            if (!response.IsSuccess)
+            if (e.Key == Windows.System.VirtualKey.Enter)
+                SendPalabra();
+        }
+
+        private async void SendPalabra()
+        {
+            if (!string.IsNullOrEmpty(TxtPalabra.Text))
             {
-                var messageDialog = new MessageDialog(response.Message, "Error");
-                messageDialog.ShowAsync();
-                return;
+                string palabra = TxtPalabra.Text;
+                TxtPalabra.Text = "";
+                TxtPalabra.Focus(FocusState.Programmatic);
+                var response = await ApiService.PostAsync("Palabras", palabra);
+
+                TxtError.Visibility = Visibility.Collapsed;
+
+                if (!response.IsSuccess)
+                {
+                    ErrorMessage(response.Message);
+                    return;
+                }
             }
+            else
+                TxtError.Text = "Ingrese una palabra.";
+        }
+
+        private void ErrorMessage(string message)
+        {
+            TxtError.Text = message;
+            TxtError.Visibility = Visibility.Visible;
         }
     }
 }

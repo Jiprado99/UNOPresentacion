@@ -31,7 +31,7 @@
             <Border Background="DimGray" Height="2" Margin="0,5"/>
         </StackPanel>
         <ScrollViewer Grid.Row="1">
-            <ListView x:ConnectionId='5' x:Name="LtvPalabras"                                >
+            <ListView x:ConnectionId='6' x:Name="LtvPalabras"                                >
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
                         <Setter Property="HorizontalContentAlignment" Value="Stretch" />
@@ -39,7 +39,7 @@
                 </ListView.ItemContainerStyle>
                 <ListView.ItemTemplate>
                     <DataTemplate                           >
-                        <Grid x:ConnectionId='7'>
+                        <Grid x:ConnectionId='8'>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
@@ -47,8 +47,8 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <TextBlock x:ConnectionId='8' Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" TextWrapping="Wrap"                       />
-                            <TextBlock x:ConnectionId='9' Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" TextWrapping="Wrap"                          />
+                            <TextBlock x:ConnectionId='9' Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" TextWrapping="Wrap"                       />
+                            <TextBlock x:ConnectionId='10' Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" TextWrapping="Wrap"                          />
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -65,13 +65,14 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:ConnectionId='4' x:Name="BtnRecuperarPalabra" FontSize="30" Content="Recuperar Palabra"                                    />
+                    <Button x:ConnectionId='5' x:Name="BtnRecuperarPalabra" FontSize="30" Content="Recuperar Palabra"                                    />
                 </StackPanel>
                 <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:ConnectionId='3' x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra"/>
+                    <Button x:ConnectionId='3' x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra"                                  />
+                    <TextBox x:ConnectionId='4' x:Name="TxbLetra" FontSize="30" MaxLength="1"/>
                 </StackPanel>
             </Grid>
-            <TextBlock x:ConnectionId='2' Grid.Row="1" x:Name="TxtError" Text="Error" FontSize="30" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
+            <TextBlock x:ConnectionId='2' Grid.Row="1" x:Name="TxtError" Text="Error" FontSize="15" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
         </Grid>
     </Grid>
 </Page>
