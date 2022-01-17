@@ -1,1 +1,1 @@
-C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\UNOUI.UWP.csproj;x64
+C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.UWP\UNOUI.UWP.csproj;x64

@@ -6318,32 +6318,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jprado\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Mpicca\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Wasm\\UNOUI.Wasm.csproj",
+      "projectUniqueName": "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.Wasm\\UNOUI.Wasm.csproj",
       "projectName": "UNOUI.Wasm",
-      "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Wasm\\UNOUI.Wasm.csproj",
-      "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-      "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Wasm\\obj\\",
+      "projectPath": "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.Wasm\\UNOUI.Wasm.csproj",
+      "packagesPath": "C:\\Users\\Mpicca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.Wasm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jprado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mpicca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6408,12 +6416,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
