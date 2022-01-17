@@ -1,38 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {}
+    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {
+    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
+        "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
         "projectName": "UNOUI",
-        "projectPath": "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
-        "packagesPath": "C:\\Users\\Mpicca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mpicca\\Source\\Repos\\UNOPresentacion\\UNOUI\\UNOUI.UWP\\obj\\",
+        "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
+        "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
+        "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mpicca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Users\\jprado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.18362"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

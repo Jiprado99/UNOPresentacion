@@ -63,12 +63,10 @@ namespace UNOUI.Helpers
         {
             try
             {
-                string request = JsonConvert.SerializeObject(letra);
-                StringContent content = new StringContent(request, Encoding.UTF8, "application/json");
                 if (Client == null)
                     CreateClient();
 
-                HttpResponseMessage response = await Client.PostAsync("api/recuperar/letra", content);
+                HttpResponseMessage response = await Client.GetAsync($"api/recuperar/letra?letra={letra}");
                 string result = await response.Content.ReadAsStringAsync();
                 if (!response.IsSuccessStatusCode)
                 {

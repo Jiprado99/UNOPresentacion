@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\UNOUI",
+    "\\UNOUI\\UNOUI.Shared",
+    "\\UNOUI\\UNOUI.Shared\\Pages"
   ],
   "SelectedNode": "\\PresentacionUNO.sln",
   "PreviewInSolutionExplorer": false

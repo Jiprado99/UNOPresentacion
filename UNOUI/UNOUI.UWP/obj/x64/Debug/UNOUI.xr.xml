@@ -36,10 +36,10 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="Foreground" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="FontWeight" />
     </RootType>
@@ -52,6 +52,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="MaxLength" />
+      <RootEvent Name="KeyUp" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -62,7 +64,8 @@
     </RootType>
     <RootType FullName="UNOUI.Pages.AgregarPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
-      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="IsSettingsVisible" />
+      <RootProperty Name="IsBackButtonVisible" />
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />
     </RootType>

@@ -40,13 +40,29 @@ namespace UNOUI.Pages
             Presentar(response);
         }
 
+        private async void BtnRecuperarLetra_Tapped(object sender, RoutedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(TxbLetra.Text))
+            {
+                char letra = Convert.ToChar(TxbLetra.Text);
+                if (letra >= 'a' && letra <= 'z' || letra >= 'A' && letra <= 'Z' || letra == 'Ñ' || letra == 'ñ')
+                {
+                    var response = await ApiService.RecuperarLetraAsync(char.ToUpper(letra));
+                    Presentar(response);
+                }
+                else
+                    ErrorMessage("Ingrese una letra válida");
+            }
+            else
+            ErrorMessage("Ingrese una Letra");
+        }
+
         private void Presentar(Response response)
         {
             TxtError.Visibility = Visibility.Collapsed;
             if (!response.IsSuccess)
             {
                 ErrorMessage(response.Message);
-                //new MessageDialog(response.Message, "Error").ShowAsync();
                 return;
             }
 
@@ -55,7 +71,6 @@ namespace UNOUI.Pages
             if (palabras == null)
             {
                 ErrorMessage(response.Message);
-                //new MessageDialog("No se han podido encontrar palabras.", "Error").ShowAsync();
                 return;
             }
 
