@@ -42,10 +42,11 @@ namespace UNOUI.Pages
 
         private void Presentar(Response response)
         {
+            TxtError.Visibility = Visibility.Collapsed;
             if (!response.IsSuccess)
             {
-                var messageDialog = new MessageDialog(response.Message, "Error");
-                messageDialog.ShowAsync();
+                ErrorMessage(response.Message);
+                //new MessageDialog(response.Message, "Error").ShowAsync();
                 return;
             }
 
@@ -53,7 +54,8 @@ namespace UNOUI.Pages
 
             if (palabras == null)
             {
-                new MessageDialog("No se han podido encontrar palabras.", "Error").ShowAsync();
+                ErrorMessage(response.Message);
+                //new MessageDialog("No se han podido encontrar palabras.", "Error").ShowAsync();
                 return;
             }
 
@@ -66,6 +68,12 @@ namespace UNOUI.Pages
             LtvPalabras.ItemsSource = null;
             LtvPalabras.Items.Clear();
             LtvPalabras.ItemsSource = Palabras;
+        }
+
+        private void ErrorMessage(string message)
+        {
+            TxtError.Text = message;
+            TxtError.Visibility = Visibility.Visible;
         }
     }
 }

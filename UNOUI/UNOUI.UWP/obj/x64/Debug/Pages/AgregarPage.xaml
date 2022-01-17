@@ -23,7 +23,7 @@
         <StackPanel Grid.Row="1" Grid.Column="1">
             <TextBlock Text="Ingrese una palabra" FontSize="30" Margin="5"/>
             <TextBox x:ConnectionId='2' x:Name="TxtPalabra" FontSize="30" Margin="5"/>
-            <Button x:ConnectionId='3' x:Name="BtnAgregar" Content="Agregar" FontSize="30" HorizontalAlignment="Stretch" Margin="10" Background="#dcdcdc"                           />
+            <Button x:ConnectionId='3' x:Name="BtnAgregar" Content="Agregar" FontSize="30" HorizontalAlignment="Stretch" Margin="10"                           />
         </StackPanel>
     </Grid>
 </Page>

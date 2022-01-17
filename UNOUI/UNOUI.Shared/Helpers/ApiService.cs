@@ -25,6 +25,7 @@ namespace UNOUI.Helpers
                 BaseAddress = new Uri("https://localhost:7094/")
             };
         }
+
         public static async Task<Response> RecuperarPalabraAsync()
         {
             try
@@ -101,17 +102,10 @@ namespace UNOUI.Helpers
                 string request = JsonConvert.SerializeObject(model);
                 StringContent content = new StringContent(request, Encoding.UTF8, "application/json");
 
-                HttpClientHandler handler = new HttpClientHandler()
-                {
-                    ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
-                };
+                if (Client == null)
+                    CreateClient();
 
-                HttpClient client = new HttpClient(handler)
-                {
-                    BaseAddress = new Uri("https://localhost:7094/")
-                };
-
-                HttpResponseMessage response = await client.PostAsync($"api/{controller}", content);
+                HttpResponseMessage response = await Client.PostAsync($"api/{controller}", content);
                 string result = await response.Content.ReadAsStringAsync();
                 if (!response.IsSuccessStatusCode)
                 {

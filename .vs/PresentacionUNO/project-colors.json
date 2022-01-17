@@ -15,7 +15,17 @@
       "ProjectGuid": "234e05b3-90e5-47c8-a2f4-1c9a25fa996e",
       "DisplayName": "UNOUI.Droid",
       "ColorIndex": 2
+    },
+    "9aeecc45-b2a0-4880-805b-9eb8c8bb4f49": {
+      "ProjectGuid": "9aeecc45-b2a0-4880-805b-9eb8c8bb4f49",
+      "DisplayName": "UNOUI.Skia.Wpf.Host",
+      "ColorIndex": 3
+    },
+    "7b5540b8-951a-4a9f-8d87-6f2f33003b3d": {
+      "ProjectGuid": "7b5540b8-951a-4a9f-8d87-6f2f33003b3d",
+      "DisplayName": "UNOUI.UWP",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

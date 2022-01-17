@@ -171,7 +171,6 @@ namespace UNOUI.Pages
 								FontSize = 30d/* double/, 30, Button/FontSize */,
 								HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Stretch/* Windows.UI.Xaml.HorizontalAlignment/, Stretch, Button/HorizontalAlignment */,
 								Margin = new global::Windows.UI.Xaml.Thickness(10)/* Windows.UI.Xaml.Thickness/, 10, Button/Margin */,
-								Background = SolidColorBrushHelper.FromARGB(255, 220, 220, 220)/* Windows.UI.Xaml.Media.Brush/, #dcdcdc, Button/Background */,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 26:14)
 							}
 							.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler4)(c9 => 

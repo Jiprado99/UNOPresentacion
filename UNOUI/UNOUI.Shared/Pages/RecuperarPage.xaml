@@ -47,24 +47,31 @@
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <TextBlock Grid.Column="0" VerticalAlignment="Center" FontSize="14" TextWrapping="Wrap" Text="{x:Bind Nombre}"/>
-                            <TextBlock Grid.Column="1" VerticalAlignment="Center" FontSize="14" TextWrapping="Wrap" Text="{x:Bind FechaHora}"/>
+                            <TextBlock Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" TextWrapping="Wrap" Text="{x:Bind Nombre}"/>
+                            <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14" TextWrapping="Wrap" Text="{x:Bind FechaHora}"/>
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </ScrollViewer>
         <Grid Grid.Row="2">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button x:Name="BtnRecuperarPalabra" FontSize="30" Content="Recuperar Palabra" Tapped="BtnRecuperarPalabra_Tapped"/>
-            </StackPanel>
-            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra"/>
-            </StackPanel>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="BtnRecuperarPalabra" FontSize="30" Content="Recuperar Palabra" Tapped="BtnRecuperarPalabra_Tapped"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra"/>
+                </StackPanel>
+            </Grid>
+            <TextBlock Grid.Row="1" x:Name="TxtError" Text="Error" FontSize="30" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
         </Grid>
     </Grid>
 </Page>
