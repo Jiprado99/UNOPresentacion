@@ -22,7 +22,7 @@ namespace UNOUI.Helpers
 
             Client = new HttpClient(handler)
             {
-                BaseAddress = new Uri("https://localhost:7094/")
+                BaseAddress = new Uri("https://10.11.12.166:7094/")
             };
         }
 

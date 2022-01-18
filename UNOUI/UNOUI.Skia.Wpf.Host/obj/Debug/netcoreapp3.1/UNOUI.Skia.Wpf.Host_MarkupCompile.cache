@@ -4,16 +4,16 @@
 exe
 C#
 .cs
-C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\obj\Debug\netcoreapp3.1\
 UNOUI.Skia.Wpf.Host
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;UNO_REFERENCE_API;HAS_UNO_SKIA;HAS_UNO_SKIA_WPF
-C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Skia.Wpf.Host\App.xaml
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Skia.Wpf.Host\App.xaml
 11407045341
 1-809296145
 51566534978
-193-283632559
+2301982943563
 MainWindow.xaml;
 
 True

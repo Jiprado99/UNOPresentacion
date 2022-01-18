@@ -66,6 +66,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="IsBackButtonVisible" />
+      <RootProperty Name="IsPaneOpen" />
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />
     </RootType>

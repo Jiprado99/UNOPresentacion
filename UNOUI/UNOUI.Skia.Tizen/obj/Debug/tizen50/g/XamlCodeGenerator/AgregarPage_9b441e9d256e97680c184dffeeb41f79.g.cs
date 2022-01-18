@@ -98,7 +98,7 @@ namespace UNOUI.Pages
 					,
 					new global::Windows.UI.Xaml.Controls.RowDefinition
 					{
-						Height = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, RowDefinition/Height */,
+						Height = new Windows.UI.Xaml.GridLength(50f, Windows.UI.Xaml.GridUnitType.Pixel)/* Windows.UI.Xaml.GridLength/, 50, RowDefinition/Height */,
 						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 20:14)
 					}
 					,
@@ -158,6 +158,8 @@ namespace UNOUI.Pages
 							{
 								nameScope.RegisterName("TxtPalabra", c8);
 								this.TxtPalabra = c8;
+								var KeyUp_TxtPalabra_KeyUp_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
+								/* second level */ c8.KeyUp += (TxtPalabra_KeyUp_sender,TxtPalabra_KeyUp_e) => (KeyUp_TxtPalabra_KeyUp_That.Target as AgregarPage)?.TxtPalabra_KeyUp(TxtPalabra_KeyUp_sender,TxtPalabra_KeyUp_e);
 								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 								c8.CreationComplete();
 							}
@@ -171,7 +173,6 @@ namespace UNOUI.Pages
 								FontSize = 30d/* double/, 30, Button/FontSize */,
 								HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Stretch/* Windows.UI.Xaml.HorizontalAlignment/, Stretch, Button/HorizontalAlignment */,
 								Margin = new global::Windows.UI.Xaml.Thickness(10)/* Windows.UI.Xaml.Thickness/, 10, Button/Margin */,
-								Background = SolidColorBrushHelper.FromARGB(255, 220, 220, 220)/* Windows.UI.Xaml.Media.Brush/, #dcdcdc, Button/Background */,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 26:14)
 							}
 							.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler4)(c9 => 
@@ -185,28 +186,33 @@ namespace UNOUI.Pages
 							}
 							))
 							,
-							new global::Windows.UI.Xaml.Controls.TextBlock
-							{
-								IsParsing = true,
-								Name = "TxbAlgo",
-								Text = "Algo"/* string/, Algo, TextBlock/Text */,
-								FontSize = 30d/* double/, 30, TextBlock/FontSize */,
-								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 27:14)
-							}
-							.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler2)(c10 => 
-							{
-								nameScope.RegisterName("TxbAlgo", c10);
-								this.TxbAlgo = c10;
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
-								c10.CreationComplete();
-							}
-							))
-							,
 						}
 					}
-					.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler5)(c11 => 
+					.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler5)(c10 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c11, 1/* int/, 1, Grid/Row */);
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c10, 1/* int/, 1, Grid/Row */);
+						global::Windows.UI.Xaml.Controls.Grid.SetColumn(c10, 1/* int/, 1, Grid/Column */);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+						c10.CreationComplete();
+					}
+					))
+					,
+					new global::Windows.UI.Xaml.Controls.TextBlock
+					{
+						IsParsing = true,
+						Name = "TxtError",
+						Text = "Error"/* string/, Error, TextBlock/Text */,
+						FontSize = 15d/* double/, 15, TextBlock/FontSize */,
+						VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, TextBlock/VerticalAlignment */,
+						Padding = new global::Windows.UI.Xaml.Thickness(20)/* Windows.UI.Xaml.Thickness/, 20, TextBlock/Padding */,
+						Visibility = global::Windows.UI.Xaml.Visibility.Collapsed/* Windows.UI.Xaml.Visibility/, Collapsed, TextBlock/Visibility */,
+						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 28:10)
+					}
+					.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler2)(c11 => 
+					{
+						nameScope.RegisterName("TxtError", c11);
+						this.TxtError = c11;
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c11, 2/* int/, 2, Grid/Row */);
 						global::Windows.UI.Xaml.Controls.Grid.SetColumn(c11, 1/* int/, 1, Grid/Column */);
 						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c11, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 						c11.CreationComplete();
@@ -276,16 +282,16 @@ namespace UNOUI.Pages
 				_BtnAgregarSubject.ElementInstance = value;
 			}
 		}
-		private global::Windows.UI.Xaml.Data.ElementNameSubject _TxbAlgoSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
-		private global::Windows.UI.Xaml.Controls.TextBlock TxbAlgo
+		private global::Windows.UI.Xaml.Data.ElementNameSubject _TxtErrorSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
+		private global::Windows.UI.Xaml.Controls.TextBlock TxtError
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.TextBlock)_TxbAlgoSubject.ElementInstance;
+				return (global::Windows.UI.Xaml.Controls.TextBlock)_TxtErrorSubject.ElementInstance;
 			}
 			set
 			{
-				_TxbAlgoSubject.ElementInstance = value;
+				_TxtErrorSubject.ElementInstance = value;
 			}
 		}
 		private global::Windows.UI.Xaml.Markup.ComponentHolder _component_0_Holder = new global::Windows.UI.Xaml.Markup.ComponentHolder(isWeak: true);

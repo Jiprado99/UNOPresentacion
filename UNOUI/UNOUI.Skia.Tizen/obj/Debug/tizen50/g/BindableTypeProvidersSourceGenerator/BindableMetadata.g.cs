@@ -23158,15 +23158,18 @@ namespace UNOUI.Skia.Tizen
 		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Maintainability", "CA1505:AvoidUnmaintainableCode", Justification = "Must be ignored even if generated code is checked.")]
 		internal static global::Uno.UI.DataBinding.IBindableType Build(global::Uno.UI.DataBinding.BindableType parent)
 		{
-			var bindableType = parent ?? new global::Uno.UI.DataBinding.BindableType(146, typeof(global::UNOUI.Pages.RecuperarPage));
+			var bindableType = parent ?? new global::Uno.UI.DataBinding.BindableType(147, typeof(global::UNOUI.Pages.RecuperarPage));
 			MetadataBuilder_327.Build(bindableType); // global::Windows.UI.Xaml.Controls.Page
 			if(parent == null)
 			{
 				bindableType.AddActivator(CreateInstance);
 			}
+			bindableType.AddProperty("Palabras", typeof(global::System.Collections.ObjectModel.ObservableCollection<global::UNOUI.Models.Palabra>), GetPalabras, SetPalabras);
 			return bindableType;
 		}
 		private static object CreateInstance() => new global::UNOUI.Pages.RecuperarPage();
+		private static object GetPalabras(object instance,  Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => ((global::UNOUI.Pages.RecuperarPage)instance).Palabras;
+		private static void SetPalabras(object instance, object value, Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => ((global::UNOUI.Pages.RecuperarPage)instance).Palabras = (global::System.Collections.ObjectModel.ObservableCollection<global::UNOUI.Models.Palabra>)value;
 	}
 
 	[System.Runtime.CompilerServices.CompilerGeneratedAttribute]

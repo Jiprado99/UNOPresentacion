@@ -26,6 +26,7 @@ namespace UNOUI.Pages
         public MainPage()
         {
             this.InitializeComponent();
+            MyFrame.Navigate(typeof(RecuperarPage));
         }
 
         private void NVIAgregar_Tapped(object sender, TappedRoutedEventArgs e)

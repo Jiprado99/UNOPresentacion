@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BD6A390335785493717AB793ABE6DA955A5C9CB58E1DF82822B16C4CB0880276</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C10FB2FE4677B8CA2F6356F773FFC42E74020246A515D30FC5D9A3BC326E4DE7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7b5540b8-951a-4a9f-8d87-6f2f33003b3d_1.0.0.0_x64__6erx1te776xpw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7b5540b8-951a-4a9f-8d87-6f2f33003b3d_6erx1te776xpw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7b5540b8-951a-4a9f-8d87-6f2f33003b3d</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-17T14:54:01.554</Modified>
+      <Modified>2022-01-18T18:46:13.089</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\UNOUI.exe">
       <PackagePath>entrypoint\UNOUI.exe</PackagePath>
-      <Modified>2022-01-17T14:54:00.599</Modified>
+      <Modified>2022-01-18T18:46:11.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jprado\.nuget\packages\commonservicelocator\2.0.5\lib\netstandard2.0\CommonServiceLocator.dll">
       <PackagePath>CommonServiceLocator.dll</PackagePath>
@@ -116,60 +116,60 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-01-17T14:08:55.747</Modified>
+      <Modified>2022-01-17T15:04:36.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-17T14:08:55.748</Modified>
+      <Modified>2022-01-17T15:04:36.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-17T14:08:55.748</Modified>
+      <Modified>2022-01-17T15:04:36.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-17T14:08:55.749</Modified>
+      <Modified>2022-01-17T15:04:36.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-17T14:08:55.749</Modified>
+      <Modified>2022-01-17T15:04:36.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-17T14:08:55.749</Modified>
+      <Modified>2022-01-17T15:04:36.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-01-17T14:08:55.751</Modified>
+      <Modified>2022-01-17T15:04:36.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Shared\Assets\SharedAssets.md">
       <PackagePath>Assets\SharedAssets.md</PackagePath>
-      <Modified>2022-01-17T14:08:55.628</Modified>
+      <Modified>2022-01-17T15:04:36.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\UNOUI.xr.xml">
       <PackagePath>UNOUI.xr.xml</PackagePath>
-      <Modified>2022-01-17T14:28:01.488</Modified>
+      <Modified>2022-01-18T18:45:52.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-01-17T14:54:00.507</Modified>
+      <Modified>2022-01-18T18:46:11.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Pages\AgregarPage.xbf">
       <PackagePath>Pages\AgregarPage.xbf</PackagePath>
-      <Modified>2022-01-17T14:54:00.507</Modified>
+      <Modified>2022-01-18T18:46:11.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2022-01-17T14:54:00.507</Modified>
+      <Modified>2022-01-18T18:46:11.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Pages\RecuperarPage.xbf">
       <PackagePath>Pages\RecuperarPage.xbf</PackagePath>
-      <Modified>2022-01-17T14:54:00.507</Modified>
+      <Modified>2022-01-18T18:46:11.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -181,11 +181,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-01-17T14:28:02.192</Modified>
+      <Modified>2022-01-18T18:46:12.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Core\UNOUI.exe">
       <PackagePath>UNOUI.exe</PackagePath>
-      <Modified>2022-01-17T14:54:01.549</Modified>
+      <Modified>2022-01-18T18:46:13.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jprado\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>

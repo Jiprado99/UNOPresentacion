@@ -132,6 +132,8 @@ namespace UNOUI.Pages
 					new global::Windows.UI.Xaml.Controls.NavigationView
 					{
 						IsParsing = true,
+						IsSettingsVisible = false/* bool/, False, NavigationView/IsSettingsVisible */,
+						IsBackButtonVisible = global::Windows.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed/* Windows.UI.Xaml.Controls.NavigationViewBackButtonVisible/, Collapsed, NavigationView/IsBackButtonVisible */,
 						IsPaneOpen = false/* bool/, False, NavigationView/IsPaneOpen */,
 						MenuItems = 
 						{

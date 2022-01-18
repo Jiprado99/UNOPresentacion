@@ -66,24 +66,30 @@ namespace UNOUI.Pages
 					new global::Windows.UI.Xaml.Controls.RowDefinition
 					{
 						Height = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Auto)/* Windows.UI.Xaml.GridLength/, auto, RowDefinition/Height */,
-						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 13:14)
+						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 14:14)
 					}
 					,
 					new global::Windows.UI.Xaml.Controls.RowDefinition
 					{
 						Height = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, RowDefinition/Height */,
-						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 14:14)
+						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 15:14)
+					}
+					,
+					new global::Windows.UI.Xaml.Controls.RowDefinition
+					{
+						Height = new Windows.UI.Xaml.GridLength(100f, Windows.UI.Xaml.GridUnitType.Pixel)/* Windows.UI.Xaml.GridLength/, 100, RowDefinition/Height */,
+						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 16:14)
 					}
 					,
 				}
 				,
-				// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 11:6)
+				// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 12:6)
 				Children = 
 				{
 					new global::Windows.UI.Xaml.Controls.StackPanel
 					{
 						IsParsing = true,
-						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 16:10)
+						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 18:10)
 						Children = 
 						{
 							new global::Windows.UI.Xaml.Controls.TextBlock
@@ -93,51 +99,359 @@ namespace UNOUI.Pages
 								HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, TextBlock/HorizontalAlignment */,
 								FontSize = 30d/* double/, 30, TextBlock/FontSize */,
 								FontWeight = global::Windows.UI.Text.FontWeights.Bold/* Windows.UI.Text.FontWeight/, Bold, TextBlock/FontWeight */,
-								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 17:14)
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 19:14)
 							}
-							.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler1)(c2 => 
+							.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler1)(c3 => 
 							{
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c2, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
-								c2.CreationComplete();
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c3, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+								c3.CreationComplete();
+							}
+							))
+							,
+							new global::Windows.UI.Xaml.Controls.Grid
+							{
+								IsParsing = true,
+								RowDefinitions = 
+								{
+									new global::Windows.UI.Xaml.Controls.RowDefinition
+									{
+										Height = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, RowDefinition/Height */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 22:22)
+									}
+									,
+								}
+								,
+								ColumnDefinitions = 
+								{
+									new global::Windows.UI.Xaml.Controls.ColumnDefinition
+									{
+										Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 25:22)
+									}
+									,
+									new global::Windows.UI.Xaml.Controls.ColumnDefinition
+									{
+										Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 26:22)
+									}
+									,
+								}
+								,
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 20:14)
+								Children = 
+								{
+									new global::Windows.UI.Xaml.Controls.TextBlock
+									{
+										IsParsing = true,
+										Text = "Palabra"/* string/, Palabra, TextBlock/Text */,
+										FontWeight = global::Windows.UI.Text.FontWeights.Bold/* Windows.UI.Text.FontWeight/, Bold, TextBlock/FontWeight */,
+										FontSize = 25d/* double/, 25, TextBlock/FontSize */,
+										HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, TextBlock/HorizontalAlignment */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 28:18)
+									}
+									.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler1)(c7 => 
+									{
+										global::Windows.UI.Xaml.Controls.Grid.SetColumn(c7, 0/* int/, 0, Grid/Column */);
+										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+										c7.CreationComplete();
+									}
+									))
+									,
+									new global::Windows.UI.Xaml.Controls.TextBlock
+									{
+										IsParsing = true,
+										Text = "Fecha y Hora"/* string/, Fecha y Hora, TextBlock/Text */,
+										FontWeight = global::Windows.UI.Text.FontWeights.Bold/* Windows.UI.Text.FontWeight/, Bold, TextBlock/FontWeight */,
+										FontSize = 25d/* double/, 25, TextBlock/FontSize */,
+										HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, TextBlock/HorizontalAlignment */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 29:18)
+									}
+									.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler1)(c8 => 
+									{
+										global::Windows.UI.Xaml.Controls.Grid.SetColumn(c8, 1/* int/, 1, Grid/Column */);
+										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+										c8.CreationComplete();
+									}
+									))
+									,
+								}
+							}
+							.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler3)(c9 => 
+							{
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+								c9.CreationComplete();
+							}
+							))
+							,
+							new global::Windows.UI.Xaml.Controls.Border
+							{
+								IsParsing = true,
+								Background = SolidColorBrushHelper.DimGray/* Windows.UI.Xaml.Media.Brush/, DimGray, Border/Background */,
+								Height = 2d/* double/, 2, Border/Height */,
+								Margin = new global::Windows.UI.Xaml.Thickness(0,5)/* Windows.UI.Xaml.Thickness/, 0,5, Border/Margin */,
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 31:14)
+							}
+							.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler4)(c10 => 
+							{
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+								c10.CreationComplete();
 							}
 							))
 							,
 						}
 					}
-					.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler2)(c3 => 
+					.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler5)(c11 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c3, 0/* int/, 0, Grid/Row */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c3, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
-						c3.CreationComplete();
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c11, 0/* int/, 0, Grid/Row */);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c11, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+						c11.CreationComplete();
+					}
+					))
+					,
+					new global::Windows.UI.Xaml.Controls.ScrollViewer
+					{
+						IsParsing = true,
+						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 33:10)
+						Content = 
+						new global::Windows.UI.Xaml.Controls.ListView
+						{
+							IsParsing = true,
+							Name = "LtvPalabras",
+							ItemContainerStyle = 							new global::Windows.UI.Xaml.Style(typeof(global::Windows.UI.Xaml.Controls.ListViewItem))
+							{
+								Setters = 
+								{
+									new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.ListViewItem.HorizontalContentAlignmentProperty, (Windows.UI.Xaml.HorizontalAlignment)global::Windows.UI.Xaml.HorizontalAlignment.Stretch/* Windows.UI.Xaml.HorizontalAlignment/Windows.UI.Xaml.HorizontalAlignment, Stretch, Setter/Value */),
+								}
+							}
+							,
+							ItemTemplate = 							new global::Windows.UI.Xaml.DataTemplate(this , __owner => 							new _RecuperarPage_170f045c361c389833c309bef0e06173_UNOUIPagesRecuperarPageSC0().Build(__owner)
+							)							,
+							// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 34:14)
+						}
+						.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler6)(c12 => 
+						{
+							nameScope.RegisterName("LtvPalabras", c12);
+							this.LtvPalabras = c12;
+							c12.SetBinding(global::Windows.UI.Xaml.Controls.ListView.ItemsSourceProperty, new Windows.UI.Xaml.Data.Binding{ Mode = BindingMode.OneTime }.BindingApply(___b =>  /*defaultBindModeOneTime Palabras*/ global::Uno.UI.Xaml.BindingHelper.SetBindingXBindProvider(___b, this, ___ctx => ___ctx is global::UNOUI.Pages.RecuperarPage ___tctx ? (object)(___tctx.Palabras) : null, null )));
+														/* _isTopLevelDictionary:False */
+							this._component_0 = c12;
+							global::Uno.UI.FrameworkElementHelper.SetBaseUri(c12, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+							c12.CreationComplete();
+						}
+						))
+						,
+					}
+					.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler7)(c13 => 
+					{
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c13, 1/* int/, 1, Grid/Row */);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c13, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+						c13.CreationComplete();
+					}
+					))
+					,
+					new global::Windows.UI.Xaml.Controls.Grid
+					{
+						IsParsing = true,
+						RowDefinitions = 
+						{
+							new global::Windows.UI.Xaml.Controls.RowDefinition
+							{
+								Height = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, RowDefinition/Height */,
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 59:18)
+							}
+							,
+							new global::Windows.UI.Xaml.Controls.RowDefinition
+							{
+								Height = new Windows.UI.Xaml.GridLength(50f, Windows.UI.Xaml.GridUnitType.Pixel)/* Windows.UI.Xaml.GridLength/, 50, RowDefinition/Height */,
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 60:18)
+							}
+							,
+						}
+						,
+						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 57:10)
+						Children = 
+						{
+							new global::Windows.UI.Xaml.Controls.Grid
+							{
+								IsParsing = true,
+								ColumnDefinitions = 
+								{
+									new global::Windows.UI.Xaml.Controls.ColumnDefinition
+									{
+										Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 64:22)
+									}
+									,
+									new global::Windows.UI.Xaml.Controls.ColumnDefinition
+									{
+										Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 65:22)
+									}
+									,
+								}
+								,
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 62:14)
+								Children = 
+								{
+									new global::Windows.UI.Xaml.Controls.StackPanel
+									{
+										IsParsing = true,
+										Orientation = global::Windows.UI.Xaml.Controls.Orientation.Horizontal/* Windows.UI.Xaml.Controls.Orientation/, Horizontal, StackPanel/Orientation */,
+										HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, StackPanel/HorizontalAlignment */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 67:18)
+										Children = 
+										{
+											new global::Windows.UI.Xaml.Controls.Button
+											{
+												IsParsing = true,
+												Name = "BtnRecuperarPalabra",
+												FontSize = 30d/* double/, 30, Button/FontSize */,
+												Content = @"Recuperar Palabra"/* object/, Recuperar Palabra, Button/Content */,
+												// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 68:22)
+											}
+											.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler8)(c18 => 
+											{
+												nameScope.RegisterName("BtnRecuperarPalabra", c18);
+												this.BtnRecuperarPalabra = c18;
+												var Tapped_BtnRecuperarPalabra_Tapped_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
+												/* second level */ c18.Tapped += (BtnRecuperarPalabra_Tapped_sender,BtnRecuperarPalabra_Tapped_e) => (Tapped_BtnRecuperarPalabra_Tapped_That.Target as RecuperarPage)?.BtnRecuperarPalabra_Tapped(BtnRecuperarPalabra_Tapped_sender,BtnRecuperarPalabra_Tapped_e);
+												global::Uno.UI.FrameworkElementHelper.SetBaseUri(c18, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+												c18.CreationComplete();
+											}
+											))
+											,
+										}
+									}
+									.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler5)(c19 => 
+									{
+										global::Windows.UI.Xaml.Controls.Grid.SetColumn(c19, 0/* int/, 0, Grid/Column */);
+										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c19, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+										c19.CreationComplete();
+									}
+									))
+									,
+									new global::Windows.UI.Xaml.Controls.StackPanel
+									{
+										IsParsing = true,
+										Orientation = global::Windows.UI.Xaml.Controls.Orientation.Horizontal/* Windows.UI.Xaml.Controls.Orientation/, Horizontal, StackPanel/Orientation */,
+										HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, StackPanel/HorizontalAlignment */,
+										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 70:18)
+										Children = 
+										{
+											new global::Windows.UI.Xaml.Controls.Button
+											{
+												IsParsing = true,
+												Name = "BtnRecuperarLetra",
+												FontSize = 30d/* double/, 30, Button/FontSize */,
+												Content = @"Recuperar por Letra"/* object/, Recuperar por Letra, Button/Content */,
+												// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 71:22)
+											}
+											.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler8)(c20 => 
+											{
+												nameScope.RegisterName("BtnRecuperarLetra", c20);
+												this.BtnRecuperarLetra = c20;
+												var Tapped_BtnRecuperarLetra_Tapped_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
+												/* second level */ c20.Tapped += (BtnRecuperarLetra_Tapped_sender,BtnRecuperarLetra_Tapped_e) => (Tapped_BtnRecuperarLetra_Tapped_That.Target as RecuperarPage)?.BtnRecuperarLetra_Tapped(BtnRecuperarLetra_Tapped_sender,BtnRecuperarLetra_Tapped_e);
+												global::Uno.UI.FrameworkElementHelper.SetBaseUri(c20, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+												c20.CreationComplete();
+											}
+											))
+											,
+											new global::Windows.UI.Xaml.Controls.TextBox
+											{
+												IsParsing = true,
+												Name = "TxbLetra",
+												FontSize = 30d/* double/, 30, TextBox/FontSize */,
+												MaxLength = 1/* int/, 1, TextBox/MaxLength */,
+												// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 72:22)
+											}
+											.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler9)(c21 => 
+											{
+												nameScope.RegisterName("TxbLetra", c21);
+												this.TxbLetra = c21;
+												global::Uno.UI.FrameworkElementHelper.SetBaseUri(c21, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+												c21.CreationComplete();
+											}
+											))
+											,
+										}
+									}
+									.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler5)(c22 => 
+									{
+										global::Windows.UI.Xaml.Controls.Grid.SetColumn(c22, 1/* int/, 1, Grid/Column */);
+										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c22, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+										c22.CreationComplete();
+									}
+									))
+									,
+								}
+							}
+							.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler3)(c23 => 
+							{
+								global::Windows.UI.Xaml.Controls.Grid.SetRow(c23, 0/* int/, 0, Grid/Row */);
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c23, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+								c23.CreationComplete();
+							}
+							))
+							,
+							new global::Windows.UI.Xaml.Controls.TextBlock
+							{
+								IsParsing = true,
+								Name = "TxtError",
+								Text = "Error"/* string/, Error, TextBlock/Text */,
+								FontSize = 15d/* double/, 15, TextBlock/FontSize */,
+								VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, TextBlock/VerticalAlignment */,
+								Padding = new global::Windows.UI.Xaml.Thickness(20)/* Windows.UI.Xaml.Thickness/, 20, TextBlock/Padding */,
+								Visibility = global::Windows.UI.Xaml.Visibility.Collapsed/* Windows.UI.Xaml.Visibility/, Collapsed, TextBlock/Visibility */,
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 75:14)
+							}
+							.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler1)(c24 => 
+							{
+								nameScope.RegisterName("TxtError", c24);
+								this.TxtError = c24;
+								global::Windows.UI.Xaml.Controls.Grid.SetRow(c24, 1/* int/, 1, Grid/Row */);
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c24, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+								c24.CreationComplete();
+							}
+							))
+							,
+						}
+					}
+					.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler3)(c25 => 
+					{
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c25, 2/* int/, 2, Grid/Row */);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c25, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+						c25.CreationComplete();
 					}
 					))
 					,
 				}
 			}
-			.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler3)(c4 => 
+			.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler3)(c26 => 
 			{
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c4, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
-				c4.CreationComplete();
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c26, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+				c26.CreationComplete();
 			}
 			))
 			;
 			
 			this
-			.GenericApply((c5 => 
+			.GenericApply((c27 => 
 			{
 				// Source C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 1:2)
 				
-				// WARNING Property c5.base does not exist on {http://schemas.microsoft.com/winfx/2006/xaml/presentation}Page, the namespace is http://www.w3.org/XML/1998/namespace. This error was considered irrelevant by the XamlFileGenerator
+				// WARNING Property c27.base does not exist on {http://schemas.microsoft.com/winfx/2006/xaml/presentation}Page, the namespace is http://www.w3.org/XML/1998/namespace. This error was considered irrelevant by the XamlFileGenerator
 			}
 			))
-			.GenericApply((c6 => 
+			.GenericApply((c28 => 
 			{
 				// Class UNOUI.Pages.RecuperarPage
-				global::Uno.UI.ResourceResolverSingleton.Instance.ApplyResource(c6, global::Windows.UI.Xaml.Controls.Page.BackgroundProperty, "ApplicationPageBackgroundThemeBrush", isThemeResourceExtension: true, isHotReloadSupported: true, context: global::UNOUI.Skia.Wpf.GlobalStaticResources.__ParseContext_);
+				global::Uno.UI.ResourceResolverSingleton.Instance.ApplyResource(c28, global::Windows.UI.Xaml.Controls.Page.BackgroundProperty, "ApplicationPageBackgroundThemeBrush", isThemeResourceExtension: true, isHotReloadSupported: true, context: global::UNOUI.Skia.Wpf.GlobalStaticResources.__ParseContext_);
 				/* _isTopLevelDictionary:False */
-				this._component_0 = c6;
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c6, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
-				c6.CreationComplete();
+				this._component_1 = c28;
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c28, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+				c28.CreationComplete();
 			}
 			))
 			;
@@ -146,21 +460,224 @@ namespace UNOUI.Pages
 			Bindings = new RecuperarPage_Bindings(this);
 			Loading += delegate
 			{
+				Bindings.Update();
 				Bindings.UpdateResources();
 			}
 			;
 		}
 		partial void OnInitializeCompleted();
-		private global::Windows.UI.Xaml.Markup.ComponentHolder _component_0_Holder = new global::Windows.UI.Xaml.Markup.ComponentHolder(isWeak: true);
-		private global::Windows.UI.Xaml.Controls.Page _component_0
+		private global::Windows.UI.Xaml.Data.ElementNameSubject _LtvPalabrasSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
+		private global::Windows.UI.Xaml.Controls.ListView LtvPalabras
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.Page)_component_0_Holder.Instance;
+				return (global::Windows.UI.Xaml.Controls.ListView)_LtvPalabrasSubject.ElementInstance;
+			}
+			set
+			{
+				_LtvPalabrasSubject.ElementInstance = value;
+			}
+		}
+		private global::Windows.UI.Xaml.Data.ElementNameSubject _BtnRecuperarPalabraSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
+		private global::Windows.UI.Xaml.Controls.Button BtnRecuperarPalabra
+		{
+			get
+			{
+				return (global::Windows.UI.Xaml.Controls.Button)_BtnRecuperarPalabraSubject.ElementInstance;
+			}
+			set
+			{
+				_BtnRecuperarPalabraSubject.ElementInstance = value;
+			}
+		}
+		private global::Windows.UI.Xaml.Data.ElementNameSubject _BtnRecuperarLetraSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
+		private global::Windows.UI.Xaml.Controls.Button BtnRecuperarLetra
+		{
+			get
+			{
+				return (global::Windows.UI.Xaml.Controls.Button)_BtnRecuperarLetraSubject.ElementInstance;
+			}
+			set
+			{
+				_BtnRecuperarLetraSubject.ElementInstance = value;
+			}
+		}
+		private global::Windows.UI.Xaml.Data.ElementNameSubject _TxbLetraSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
+		private global::Windows.UI.Xaml.Controls.TextBox TxbLetra
+		{
+			get
+			{
+				return (global::Windows.UI.Xaml.Controls.TextBox)_TxbLetraSubject.ElementInstance;
+			}
+			set
+			{
+				_TxbLetraSubject.ElementInstance = value;
+			}
+		}
+		private global::Windows.UI.Xaml.Data.ElementNameSubject _TxtErrorSubject = new global::Windows.UI.Xaml.Data.ElementNameSubject();
+		private global::Windows.UI.Xaml.Controls.TextBlock TxtError
+		{
+			get
+			{
+				return (global::Windows.UI.Xaml.Controls.TextBlock)_TxtErrorSubject.ElementInstance;
+			}
+			set
+			{
+				_TxtErrorSubject.ElementInstance = value;
+			}
+		}
+		private class _RecuperarPage_170f045c361c389833c309bef0e06173_UNOUIPagesRecuperarPageSC0
+		{
+			public _View Build(object __ResourceOwner_0)
+			{
+				var nameScope = new global::Windows.UI.Xaml.NameScope();
+				_View __rootInstance = null;
+				__rootInstance = 
+				new global::Windows.UI.Xaml.Controls.Grid
+				{
+					IsParsing = true,
+					RowDefinitions = 
+					{
+						new global::Windows.UI.Xaml.Controls.RowDefinition
+						{
+							Height = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, RowDefinition/Height */,
+							// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 44:34)
+						}
+						,
+					}
+					,
+					ColumnDefinitions = 
+					{
+						new global::Windows.UI.Xaml.Controls.ColumnDefinition
+						{
+							Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+							// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 47:34)
+						}
+						,
+						new global::Windows.UI.Xaml.Controls.ColumnDefinition
+						{
+							Width = new Windows.UI.Xaml.GridLength(1f, Windows.UI.Xaml.GridUnitType.Star)/* Windows.UI.Xaml.GridLength/, *, ColumnDefinition/Width */,
+							// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 48:34)
+						}
+						,
+					}
+					,
+					// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 42:26)
+					Children = 
+					{
+						new global::Windows.UI.Xaml.Controls.TextBlock
+						{
+							IsParsing = true,
+							VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, TextBlock/VerticalAlignment */,
+							HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, TextBlock/HorizontalAlignment */,
+							FontSize = 14d/* double/, 14, TextBlock/FontSize */,
+							TextWrapping = global::Windows.UI.Xaml.TextWrapping.Wrap/* Windows.UI.Xaml.TextWrapping/, Wrap, TextBlock/TextWrapping */,
+							// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 50:30)
+						}
+						.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler1)(c32 => 
+						{
+							global::Windows.UI.Xaml.Controls.Grid.SetColumn(c32, 0/* int/, 0, Grid/Column */);
+							c32.SetBinding(global::Windows.UI.Xaml.Controls.TextBlock.TextProperty, new Windows.UI.Xaml.Data.Binding{ Mode = BindingMode.OneTime }.BindingApply(___b => /*defaultBindModeOneTime*/ global::Uno.UI.Xaml.BindingHelper.SetBindingXBindProvider(___b, null, ___ctx => ___ctx is UNOUI.Models.Palabra ___tctx ? (object)(___tctx.Nombre) : null, null )));
+														/* _isTopLevelDictionary:False */
+							this._component_0 = c32;
+							global::Uno.UI.FrameworkElementHelper.SetBaseUri(c32, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+							c32.CreationComplete();
+						}
+						))
+						,
+						new global::Windows.UI.Xaml.Controls.TextBlock
+						{
+							IsParsing = true,
+							VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, TextBlock/VerticalAlignment */,
+							HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, TextBlock/HorizontalAlignment */,
+							FontSize = 14d/* double/, 14, TextBlock/FontSize */,
+							TextWrapping = global::Windows.UI.Xaml.TextWrapping.Wrap/* Windows.UI.Xaml.TextWrapping/, Wrap, TextBlock/TextWrapping */,
+							// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 51:30)
+						}
+						.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler1)(c33 => 
+						{
+							global::Windows.UI.Xaml.Controls.Grid.SetColumn(c33, 1/* int/, 1, Grid/Column */);
+							c33.SetBinding(global::Windows.UI.Xaml.Controls.TextBlock.TextProperty, new Windows.UI.Xaml.Data.Binding{ Mode = BindingMode.OneTime }.BindingApply(___b => /*defaultBindModeOneTime*/ global::Uno.UI.Xaml.BindingHelper.SetBindingXBindProvider(___b, null, ___ctx => ___ctx is UNOUI.Models.Palabra ___tctx ? (object)(___tctx.FechaHora) : null, null )));
+														/* _isTopLevelDictionary:False */
+							this._component_1 = c33;
+							global::Uno.UI.FrameworkElementHelper.SetBaseUri(c33, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+							c33.CreationComplete();
+						}
+						))
+						,
+					}
+				}
+				.RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply((RecuperarPage_170f045c361c389833c309bef0e06173XamlApplyExtensions.XamlApplyHandler3)(c34 => 
+				{
+					global::Uno.UI.FrameworkElementHelper.SetBaseUri(c34, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/RecuperarPage.xaml");
+					c34.CreationComplete();
+				}
+				))
+				;
+				if (__rootInstance is FrameworkElement __fe) 
+				{
+					__fe.Loading += delegate
+					{
+						_component_0.UpdateResourceBindings();
+						_component_1.UpdateResourceBindings();
+					}
+					;
+				}
+				if (__rootInstance is DependencyObject d)
+				{
+					global::Windows.UI.Xaml.NameScope.SetNameScope(d, nameScope);
+					nameScope.Owner = d;
+					global::Uno.UI.FrameworkElementHelper.AddObjectReference(d, this);
+				}
+				return __rootInstance;
+			}
+			private global::Windows.UI.Xaml.Markup.ComponentHolder _component_0_Holder = new global::Windows.UI.Xaml.Markup.ComponentHolder(isWeak: true);
+			private global::Windows.UI.Xaml.Controls.TextBlock _component_0
+			{
+				get
+				{
+					return (global::Windows.UI.Xaml.Controls.TextBlock)_component_0_Holder.Instance;
+				}
+				set
+				{
+					_component_0_Holder.Instance = value;
+				}
+			}
+			private global::Windows.UI.Xaml.Markup.ComponentHolder _component_1_Holder = new global::Windows.UI.Xaml.Markup.ComponentHolder(isWeak: true);
+			private global::Windows.UI.Xaml.Controls.TextBlock _component_1
+			{
+				get
+				{
+					return (global::Windows.UI.Xaml.Controls.TextBlock)_component_1_Holder.Instance;
+				}
+				set
+				{
+					_component_1_Holder.Instance = value;
+				}
+			}
+		}
+		private global::Windows.UI.Xaml.Markup.ComponentHolder _component_0_Holder = new global::Windows.UI.Xaml.Markup.ComponentHolder(isWeak: true);
+		private global::Windows.UI.Xaml.Controls.ListView _component_0
+		{
+			get
+			{
+				return (global::Windows.UI.Xaml.Controls.ListView)_component_0_Holder.Instance;
 			}
 			set
 			{
 				_component_0_Holder.Instance = value;
+			}
+		}
+		private global::Windows.UI.Xaml.Markup.ComponentHolder _component_1_Holder = new global::Windows.UI.Xaml.Markup.ComponentHolder(isWeak: true);
+		private global::Windows.UI.Xaml.Controls.Page _component_1
+		{
+			get
+			{
+				return (global::Windows.UI.Xaml.Controls.Page)_component_1_Holder.Instance;
+			}
+			set
+			{
+				_component_1_Holder.Instance = value;
 			}
 		}
 		private interface IRecuperarPage_Bindings
@@ -192,11 +709,13 @@ namespace UNOUI.Pages
 			void IRecuperarPage_Bindings.Update()
 			{
 				var owner = Owner;
+				owner._component_0.ApplyXBind();
 			}
 			void IRecuperarPage_Bindings.UpdateResources()
 			{
 				var owner = Owner;
 				owner._component_0.UpdateResourceBindings();
+				owner._component_1.UpdateResourceBindings();
 			}
 			void IRecuperarPage_Bindings.StopTracking()
 			{
@@ -223,9 +742,9 @@ namespace UNOUI.Skia.Wpf
 			handler(instance);
 			return instance;
 		}
-		public delegate void XamlApplyHandler2(global::Windows.UI.Xaml.Controls.StackPanel instance);
+		public delegate void XamlApplyHandler2(global::Windows.UI.Xaml.Controls.ColumnDefinition instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.StackPanel RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.StackPanel instance, XamlApplyHandler2 handler)
+		public static global::Windows.UI.Xaml.Controls.ColumnDefinition RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.ColumnDefinition instance, XamlApplyHandler2 handler)
 		{
 			handler(instance);
 			return instance;
@@ -233,6 +752,48 @@ namespace UNOUI.Skia.Wpf
 		public delegate void XamlApplyHandler3(global::Windows.UI.Xaml.Controls.Grid instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
 		public static global::Windows.UI.Xaml.Controls.Grid RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.Grid instance, XamlApplyHandler3 handler)
+		{
+			handler(instance);
+			return instance;
+		}
+		public delegate void XamlApplyHandler4(global::Windows.UI.Xaml.Controls.Border instance);
+		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static global::Windows.UI.Xaml.Controls.Border RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.Border instance, XamlApplyHandler4 handler)
+		{
+			handler(instance);
+			return instance;
+		}
+		public delegate void XamlApplyHandler5(global::Windows.UI.Xaml.Controls.StackPanel instance);
+		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static global::Windows.UI.Xaml.Controls.StackPanel RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.StackPanel instance, XamlApplyHandler5 handler)
+		{
+			handler(instance);
+			return instance;
+		}
+		public delegate void XamlApplyHandler6(global::Windows.UI.Xaml.Controls.ListView instance);
+		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static global::Windows.UI.Xaml.Controls.ListView RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.ListView instance, XamlApplyHandler6 handler)
+		{
+			handler(instance);
+			return instance;
+		}
+		public delegate void XamlApplyHandler7(global::Windows.UI.Xaml.Controls.ScrollViewer instance);
+		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static global::Windows.UI.Xaml.Controls.ScrollViewer RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.ScrollViewer instance, XamlApplyHandler7 handler)
+		{
+			handler(instance);
+			return instance;
+		}
+		public delegate void XamlApplyHandler8(global::Windows.UI.Xaml.Controls.Button instance);
+		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static global::Windows.UI.Xaml.Controls.Button RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.Button instance, XamlApplyHandler8 handler)
+		{
+			handler(instance);
+			return instance;
+		}
+		public delegate void XamlApplyHandler9(global::Windows.UI.Xaml.Controls.TextBox instance);
+		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+		public static global::Windows.UI.Xaml.Controls.TextBox RecuperarPage_170f045c361c389833c309bef0e06173_XamlApply(this global::Windows.UI.Xaml.Controls.TextBox instance, XamlApplyHandler9 handler)
 		{
 			handler(instance);
 			return instance;

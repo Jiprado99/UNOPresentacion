@@ -119,7 +119,6 @@ C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Uno.Foundation.Logging.p
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Uno.UI.Toolkit.dll
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Uno.UI.Toolkit.pdb
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\obj\x64\Debug\UNOUI.UWP.csproj.AssemblyReference.cache
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\obj\x64\Debug\App.g.i.cs
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\obj\x64\Debug\App.g.cs
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.UWP\obj\x64\Debug\Pages\AgregarPage.g.i.cs

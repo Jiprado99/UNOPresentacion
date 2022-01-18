@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "sVcuG7gQdrQXqaRnbjfvjt1RGGqVJ8wU25LNExbX7Gk=",
+  "Source": "UNOUI.Wasm",
+  "BasePath": "_content/UNOUI.Wasm",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UNOUI.Wasm\\wwwroot",
+      "Source": "UNOUI.Wasm",
+      "ContentRoot": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Wasm\\wwwroot\\",
+      "BasePath": "_content/UNOUI.Wasm",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Wasm\\wwwroot\\web.config",
+      "SourceId": "UNOUI.Wasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Wasm\\wwwroot\\",
+      "BasePath": "_content/UNOUI.Wasm",
+      "RelativePath": "web.config",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web.config"
+    }
+  ]
+}

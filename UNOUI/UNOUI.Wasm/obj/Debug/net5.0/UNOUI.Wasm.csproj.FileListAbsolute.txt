@@ -252,7 +252,6 @@ C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\bin\Debug\net5.0\runtimes\win\lib\net
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.csproj.AssemblyReference.cache
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.AssemblyInfoInputs.cache
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.AssemblyInfo.cs
@@ -399,3 +398,4 @@ C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\U
 C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\ref\UNOUI.Wasm.dll
 C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.pdb
 C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.genruntimeconfig.cache
+C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.csproj.AssemblyReference.cache
