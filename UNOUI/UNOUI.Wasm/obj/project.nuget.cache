@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WL9uW5FyWy2AEPLcoFpTMoeNkupqsCK2LcU7wENsWBi/PqTbtwIxKtVdwfjcPtGOFrGHZdFg/cIoE9iJE0F/qA==",
+  "dgSpecHash": "y6I1QZoT4/qz/47aZyyt2t48X5wFf6MdbPUo0T+kMDjmCCiqt2sQvCHDrxbQ0UgdoRbNePVMmDPtsvwn3qKxmg==",
   "success": true,
-  "projectFilePath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Wasm\\UNOUI.Wasm.csproj",
+  "projectFilePath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Wasm\\UNOUI.Wasm.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
@@ -39,6 +40,7 @@
     "C:\\Users\\jprado\\.nuget\\packages\\system.data.oledb\\5.0.0\\system.data.oledb.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\jprado\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.0\\system.diagnostics.eventlog.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\system.diagnostics.performancecounter.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\system.directoryservices\\5.0.0\\system.directoryservices.5.0.0.nupkg.sha512",

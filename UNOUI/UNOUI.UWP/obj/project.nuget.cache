@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KrCQ2iCZr2vvhhUuc+aeVGzN58Y1esnCN9Z3WOMEZTBzxZoV6jtCtvTtbSmLOomhrBIAELpvJycNJMy7otQUSg==",
+  "dgSpecHash": "ZuK1g8/f2+w7kGZywgFYHb+s6lk8sZvDUPN/r+z/Acect7KGEX92BIojwQN1hm1Z6/VxMDRY1u/AeZwq1vuW5w==",
   "success": true,
-  "projectFilePath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
+  "projectFilePath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",

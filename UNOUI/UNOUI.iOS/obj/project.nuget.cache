@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rKlW/s1vnqDrj/zuFVesThSstB09h5aIoltJuPzGrAcNGkmbhBBZ9P6Sg7+KBqQDppYIjlu1pJ7K/q/m76EcKQ==",
+  "dgSpecHash": "LPyMTrnu7qMGUf2WqfnopYYb8XInUa4Q2sjWHJdVmJEUFraTygoMCyx+xHt8sxPACc00Cb/M2I461eRjhg5faQ==",
   "success": true,
-  "projectFilePath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj",
+  "projectFilePath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

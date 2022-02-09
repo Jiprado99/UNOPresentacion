@@ -46,7 +46,7 @@ namespace UNOUI.Pages
 	{
 				private void InitializeComponent()
 		{
-			var __resourceLocator = new global::System.Uri("file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+			var __resourceLocator = new global::System.Uri("file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 			if(global::Uno.UI.ApplicationHelper.IsLoadableComponent(__resourceLocator))
 			{
 				global::Windows.UI.Xaml.Application.LoadComponent(this, __resourceLocator);
@@ -116,11 +116,11 @@ namespace UNOUI.Pages
 						VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, TextBlock/VerticalAlignment */,
 						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 22:10)
 					}
-					.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler2)(c6 => 
+					.AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply((AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions.XamlApplyHandler2)(c6 => 
 					{
 						global::Windows.UI.Xaml.Controls.Grid.SetColumn(c6, 1/* int/, 1, Grid/Column */);
 						global::Windows.UI.Xaml.Controls.Grid.SetRow(c6, 0/* int/, 0, Grid/Row */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c6, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c6, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 						c6.CreationComplete();
 					}
 					))
@@ -139,9 +139,9 @@ namespace UNOUI.Pages
 								Margin = new global::Windows.UI.Xaml.Thickness(5)/* Windows.UI.Xaml.Thickness/, 5, TextBlock/Margin */,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 24:14)
 							}
-							.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler2)(c7 => 
+							.AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply((AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions.XamlApplyHandler2)(c7 => 
 							{
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 								c7.CreationComplete();
 							}
 							))
@@ -154,13 +154,13 @@ namespace UNOUI.Pages
 								Margin = new global::Windows.UI.Xaml.Thickness(5)/* Windows.UI.Xaml.Thickness/, 5, TextBox/Margin */,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 25:14)
 							}
-							.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler3)(c8 => 
+							.AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply((AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions.XamlApplyHandler3)(c8 => 
 							{
 								nameScope.RegisterName("TxtPalabra", c8);
 								this.TxtPalabra = c8;
 								var KeyUp_TxtPalabra_KeyUp_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
 								/* second level */ c8.KeyUp += (TxtPalabra_KeyUp_sender,TxtPalabra_KeyUp_e) => (KeyUp_TxtPalabra_KeyUp_That.Target as AgregarPage)?.TxtPalabra_KeyUp(TxtPalabra_KeyUp_sender,TxtPalabra_KeyUp_e);
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 								c8.CreationComplete();
 							}
 							))
@@ -175,24 +175,24 @@ namespace UNOUI.Pages
 								Margin = new global::Windows.UI.Xaml.Thickness(10)/* Windows.UI.Xaml.Thickness/, 10, Button/Margin */,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 26:14)
 							}
-							.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler4)(c9 => 
+							.AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply((AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions.XamlApplyHandler4)(c9 => 
 							{
 								nameScope.RegisterName("BtnAgregar", c9);
 								this.BtnAgregar = c9;
 								var Tapped_BtnAgregar_Tapped_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
 								/* second level */ c9.Tapped += (BtnAgregar_Tapped_sender,BtnAgregar_Tapped_e) => (Tapped_BtnAgregar_Tapped_That.Target as AgregarPage)?.BtnAgregar_Tapped(BtnAgregar_Tapped_sender,BtnAgregar_Tapped_e);
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 								c9.CreationComplete();
 							}
 							))
 							,
 						}
 					}
-					.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler5)(c10 => 
+					.AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply((AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions.XamlApplyHandler5)(c10 => 
 					{
 						global::Windows.UI.Xaml.Controls.Grid.SetRow(c10, 1/* int/, 1, Grid/Row */);
 						global::Windows.UI.Xaml.Controls.Grid.SetColumn(c10, 1/* int/, 1, Grid/Column */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 						c10.CreationComplete();
 					}
 					))
@@ -208,22 +208,22 @@ namespace UNOUI.Pages
 						Visibility = global::Windows.UI.Xaml.Visibility.Collapsed/* Windows.UI.Xaml.Visibility/, Collapsed, TextBlock/Visibility */,
 						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\AgregarPage.xaml (Line 28:10)
 					}
-					.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler2)(c11 => 
+					.AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply((AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions.XamlApplyHandler2)(c11 => 
 					{
 						nameScope.RegisterName("TxtError", c11);
 						this.TxtError = c11;
 						global::Windows.UI.Xaml.Controls.Grid.SetRow(c11, 2/* int/, 2, Grid/Row */);
 						global::Windows.UI.Xaml.Controls.Grid.SetColumn(c11, 1/* int/, 1, Grid/Column */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c11, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c11, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 						c11.CreationComplete();
 					}
 					))
 					,
 				}
 			}
-			.AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply((AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions.XamlApplyHandler6)(c12 => 
+			.AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply((AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions.XamlApplyHandler6)(c12 => 
 			{
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c12, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c12, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 				c12.CreationComplete();
 			}
 			))
@@ -232,7 +232,7 @@ namespace UNOUI.Pages
 			this
 			.GenericApply((c13 => 
 			{
-				// Source C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Shared\Pages\AgregarPage.xaml (Line 1:2)
+				// Source C:\Jprado\UNOUI\UNOUI\UNOUI.Shared\Pages\AgregarPage.xaml (Line 1:2)
 				
 				// WARNING Property c13.base does not exist on {http://schemas.microsoft.com/winfx/2006/xaml/presentation}Page, the namespace is http://www.w3.org/XML/1998/namespace. This error was considered irrelevant by the XamlFileGenerator
 			}
@@ -243,7 +243,7 @@ namespace UNOUI.Pages
 				global::Uno.UI.ResourceResolverSingleton.Instance.ApplyResource(c14, global::Windows.UI.Xaml.Controls.Page.BackgroundProperty, "ApplicationPageBackgroundThemeBrush", isThemeResourceExtension: true, isHotReloadSupported: true, context: global::UNOUI.Droid.GlobalStaticResources.__ParseContext_);
 				/* _isTopLevelDictionary:False */
 				this._component_0 = c14;
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c14, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c14, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/AgregarPage.xaml");
 				c14.CreationComplete();
 			}
 			))
@@ -350,53 +350,53 @@ namespace UNOUI.Pages
 }
 namespace UNOUI.Droid
 {
-	static class AgregarPage_9b441e9d256e97680c184dffeeb41f79XamlApplyExtensions
+	static class AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0dXamlApplyExtensions
 	{
 		public delegate void XamlApplyHandler0(global::Windows.UI.Xaml.Controls.ColumnDefinition instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.ColumnDefinition AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply(this global::Windows.UI.Xaml.Controls.ColumnDefinition instance, XamlApplyHandler0 handler)
+		public static global::Windows.UI.Xaml.Controls.ColumnDefinition AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply(this global::Windows.UI.Xaml.Controls.ColumnDefinition instance, XamlApplyHandler0 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler1(global::Windows.UI.Xaml.Controls.RowDefinition instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.RowDefinition AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply(this global::Windows.UI.Xaml.Controls.RowDefinition instance, XamlApplyHandler1 handler)
+		public static global::Windows.UI.Xaml.Controls.RowDefinition AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply(this global::Windows.UI.Xaml.Controls.RowDefinition instance, XamlApplyHandler1 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler2(global::Windows.UI.Xaml.Controls.TextBlock instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.TextBlock AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply(this global::Windows.UI.Xaml.Controls.TextBlock instance, XamlApplyHandler2 handler)
+		public static global::Windows.UI.Xaml.Controls.TextBlock AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply(this global::Windows.UI.Xaml.Controls.TextBlock instance, XamlApplyHandler2 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler3(global::Windows.UI.Xaml.Controls.TextBox instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.TextBox AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply(this global::Windows.UI.Xaml.Controls.TextBox instance, XamlApplyHandler3 handler)
+		public static global::Windows.UI.Xaml.Controls.TextBox AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply(this global::Windows.UI.Xaml.Controls.TextBox instance, XamlApplyHandler3 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler4(global::Windows.UI.Xaml.Controls.Button instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.Button AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply(this global::Windows.UI.Xaml.Controls.Button instance, XamlApplyHandler4 handler)
+		public static global::Windows.UI.Xaml.Controls.Button AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply(this global::Windows.UI.Xaml.Controls.Button instance, XamlApplyHandler4 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler5(global::Windows.UI.Xaml.Controls.StackPanel instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.StackPanel AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply(this global::Windows.UI.Xaml.Controls.StackPanel instance, XamlApplyHandler5 handler)
+		public static global::Windows.UI.Xaml.Controls.StackPanel AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply(this global::Windows.UI.Xaml.Controls.StackPanel instance, XamlApplyHandler5 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler6(global::Windows.UI.Xaml.Controls.Grid instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.Grid AgregarPage_9b441e9d256e97680c184dffeeb41f79_XamlApply(this global::Windows.UI.Xaml.Controls.Grid instance, XamlApplyHandler6 handler)
+		public static global::Windows.UI.Xaml.Controls.Grid AgregarPage_77cd5215dcbdb0c5ac24a88e77f32d0d_XamlApply(this global::Windows.UI.Xaml.Controls.Grid instance, XamlApplyHandler6 handler)
 		{
 			handler(instance);
 			return instance;

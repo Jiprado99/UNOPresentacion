@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B6BQZ++PSqB8hQiq3U52sGbViI2UynO2H9VIGwd6q991GKAjmjt+u+ZGPSlDN8R0npGlqPBq78Q2vJuJH1YFnA==",
+  "dgSpecHash": "K6XWkllDsHcY2Taq7yiV7rE/Sw4cY7ZdfN2A+on+uNAUEQIweZxxXxBYb77VxaOgSvtAhiQGXbrRn6ZdwHuQyw==",
   "success": true,
-  "projectFilePath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj",
+  "projectFilePath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",

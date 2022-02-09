@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Autofac;
+using UNOUI.Helpers.Interfaces;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -23,8 +25,11 @@ namespace UNOUI.Pages
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private IApiService ApiService => AFacHelper.Container.Resolve<IApiService>();
+
         public MainPage()
         {
+            AFacHelper.Registrar();
             this.InitializeComponent();
             MyFrame.Navigate(typeof(RecuperarPage));
         }

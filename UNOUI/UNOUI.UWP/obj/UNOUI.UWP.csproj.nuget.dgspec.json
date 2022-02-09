@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {}
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
+        "projectUniqueName": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
         "projectName": "UNOUI",
-        "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
+        "projectPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.UWP\\UNOUI.UWP.csproj",
         "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.UWP\\obj\\",
+        "outputPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -39,6 +39,10 @@
       "frameworks": {
         "uap10.0.18362": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[5.0.0, )"

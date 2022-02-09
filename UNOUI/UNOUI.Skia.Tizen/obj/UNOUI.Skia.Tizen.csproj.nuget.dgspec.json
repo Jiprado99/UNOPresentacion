@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj": {}
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj": {}
   },
   "projects": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj": {
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj",
+        "projectUniqueName": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj",
         "projectName": "UNOUI.Skia.Tizen",
-        "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj",
+        "projectPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Tizen\\UNOUI.Skia.Tizen.csproj",
         "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Tizen\\obj\\",
+        "outputPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Tizen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "tizen50": {
           "targetAlias": "tizen50",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[5.0.0, )"

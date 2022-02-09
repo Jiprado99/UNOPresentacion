@@ -54,7 +54,7 @@ namespace UNOUI
 			this
 			.GenericApply((c0 => 
 			{
-				// Source C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Shared\App.xaml (Line 1:2)
+				// Source C:\Jprado\UNOUI\UNOUI\UNOUI.Shared\App.xaml (Line 1:2)
 				
 				// WARNING Property c0.base does not exist on {http://schemas.microsoft.com/winfx/2006/xaml/presentation}Application, the namespace is http://www.w3.org/XML/1998/namespace. This error was considered irrelevant by the XamlFileGenerator
 			}
@@ -80,7 +80,7 @@ namespace UNOUI
 }
 namespace UNOUI.Droid
 {
-	static class App_dd4499cf75181ab3c4c8675340b9a974XamlApplyExtensions
+	static class App_c68f5fee254a144b3c57c6ca75dc5d81XamlApplyExtensions
 	{
 	}
 }

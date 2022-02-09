@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj": {}
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj": {}
   },
   "projects": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj": {
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
+        "projectUniqueName": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
         "projectName": "UNOUI.Droid",
-        "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
+        "projectPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
         "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\obj\\",
+        "outputPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -38,6 +38,10 @@
       "frameworks": {
         "monoandroid10.0": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[5.0.0, )"

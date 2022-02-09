@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Autofac/6.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "CommonServiceLocator/2.0.5": {
         "type": "package",
         "compile": {
@@ -692,6 +705,27 @@
     }
   },
   "libraries": {
+    "Autofac/6.3.0": {
+      "sha512": "gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "type": "package",
+      "path": "autofac/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.6.3.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.pdb",
+        "lib/net5.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "CommonServiceLocator/2.0.5": {
       "sha512": "Md2q9f6hAuUAm6IWTybQbYvxhDAs2dqmsudVDghpg0Q+C0M2KkmiTDjeGx1PsYhnZPvp+hy1Cx99v0VPW9W6/g==",
       "type": "package",
@@ -3863,6 +3897,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Autofac >= 6.3.0",
       "Microsoft.Extensions.Logging >= 5.0.0",
       "Microsoft.Extensions.Logging.Console >= 5.0.0",
       "NETStandard.Library >= 2.0.3",
@@ -3878,11 +3913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Wpf\\UNOUI.Skia.Wpf.csproj",
+      "projectUniqueName": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Wpf\\UNOUI.Skia.Wpf.csproj",
       "projectName": "UNOUI.Skia.Wpf",
-      "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Wpf\\UNOUI.Skia.Wpf.csproj",
+      "projectPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Wpf\\UNOUI.Skia.Wpf.csproj",
       "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-      "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Wpf\\obj\\",
+      "outputPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Wpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3916,6 +3951,10 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[6.3.0, )"
+          },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
             "version": "[5.0.0, )"

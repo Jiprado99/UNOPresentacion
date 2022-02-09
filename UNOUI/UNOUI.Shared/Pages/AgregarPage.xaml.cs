@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Autofac;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using UNOUI.Helpers;
+using UNOUI.Helpers.Interfaces;
 using UNOUI.Models;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -26,6 +28,8 @@ namespace UNOUI.Pages
     /// </summary>
     public sealed partial class AgregarPage : Page
     {
+        private IApiService ApiService => AFacHelper.Container.Resolve<IApiService>();
+
         public AgregarPage()
         {
             this.InitializeComponent();
@@ -49,7 +53,7 @@ namespace UNOUI.Pages
                 string palabra = TxtPalabra.Text;
                 TxtPalabra.Text = "";
                 TxtPalabra.Focus(FocusState.Programmatic);
-                var response = await ApiService.PostAsync("Palabras", palabra);
+                var response = await ApiService.PostAsync<string, List<Palabra>>("Agregar", palabra);
 
                 TxtError.Visibility = Visibility.Collapsed;
 

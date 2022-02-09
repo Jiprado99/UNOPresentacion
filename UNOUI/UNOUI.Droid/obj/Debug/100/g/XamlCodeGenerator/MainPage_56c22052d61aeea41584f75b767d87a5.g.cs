@@ -46,7 +46,7 @@ namespace UNOUI.Pages
 	{
 				private void InitializeComponent()
 		{
-			var __resourceLocator = new global::System.Uri("file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+			var __resourceLocator = new global::System.Uri("file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 			if(global::Uno.UI.ApplicationHelper.IsLoadableComponent(__resourceLocator))
 			{
 				global::Windows.UI.Xaml.Application.LoadComponent(this, __resourceLocator);
@@ -103,28 +103,28 @@ namespace UNOUI.Pages
 										Foreground = SolidColorBrushHelper.MintCream/* Windows.UI.Xaml.Media.Brush/, MintCream, TextBlock/Foreground */,
 										// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 18:18)
 									}
-									.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler1)(c2 => 
+									.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler1)(c2 => 
 									{
-										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c2, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+										global::Uno.UI.FrameworkElementHelper.SetBaseUri(c2, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 										c2.CreationComplete();
 									}
 									))
 									,
 								}
 							}
-							.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler2)(c3 => 
+							.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler2)(c3 => 
 							{
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c3, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c3, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 								c3.CreationComplete();
 							}
 							))
 							,
 						}
 					}
-					.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler3)(c4 => 
+					.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler3)(c4 => 
 					{
 						global::Windows.UI.Xaml.Controls.Grid.SetRow(c4, 0/* int/, 0, Grid/Row */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c4, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c4, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 						c4.CreationComplete();
 					}
 					))
@@ -148,22 +148,22 @@ namespace UNOUI.Pages
 									Symbol = global::Windows.UI.Xaml.Controls.Symbol.Add/* Windows.UI.Xaml.Controls.Symbol/, Add, SymbolIcon/Symbol */,
 									// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 25:26)
 								}
-								.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler4)(c5 => 
+								.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler4)(c5 => 
 								{
-									global::Uno.UI.FrameworkElementHelper.SetBaseUri(c5, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+									global::Uno.UI.FrameworkElementHelper.SetBaseUri(c5, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 									c5.CreationComplete();
 								}
 								))
 								,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 23:18)
 							}
-							.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler5)(c6 => 
+							.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler5)(c6 => 
 							{
 								nameScope.RegisterName("NVIAgregar", c6);
 								this.NVIAgregar = c6;
 								var Tapped_NVIAgregar_Tapped_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
 								/* second level */ c6.Tapped += (NVIAgregar_Tapped_sender,NVIAgregar_Tapped_e) => (Tapped_NVIAgregar_Tapped_That.Target as MainPage)?.NVIAgregar_Tapped(NVIAgregar_Tapped_sender,NVIAgregar_Tapped_e);
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c6, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c6, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 								c6.CreationComplete();
 							}
 							))
@@ -179,22 +179,22 @@ namespace UNOUI.Pages
 									Symbol = global::Windows.UI.Xaml.Controls.Symbol.Find/* Windows.UI.Xaml.Controls.Symbol/, Find, SymbolIcon/Symbol */,
 									// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 30:26)
 								}
-								.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler4)(c7 => 
+								.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler4)(c7 => 
 								{
-									global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+									global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 									c7.CreationComplete();
 								}
 								))
 								,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 28:18)
 							}
-							.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler5)(c8 => 
+							.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler5)(c8 => 
 							{
 								nameScope.RegisterName("NVIConsultar", c8);
 								this.NVIConsultar = c8;
 								var Tapped_NVIConsultar_Tapped_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
 								/* second level */ c8.Tapped += (NVIConsultar_Tapped_sender,NVIConsultar_Tapped_e) => (Tapped_NVIConsultar_Tapped_That.Target as MainPage)?.NVIConsultar_Tapped(NVIConsultar_Tapped_sender,NVIConsultar_Tapped_e);
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c8, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 								c8.CreationComplete();
 							}
 							))
@@ -210,22 +210,22 @@ namespace UNOUI.Pages
 									Symbol = global::Windows.UI.Xaml.Controls.Symbol.Delete/* Windows.UI.Xaml.Controls.Symbol/, Delete, SymbolIcon/Symbol */,
 									// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 35:26)
 								}
-								.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler4)(c9 => 
+								.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler4)(c9 => 
 								{
-									global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+									global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 									c9.CreationComplete();
 								}
 								))
 								,
 								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 33:18)
 							}
-							.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler5)(c10 => 
+							.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler5)(c10 => 
 							{
 								nameScope.RegisterName("NVIEliminar", c10);
 								this.NVIEliminar = c10;
 								var Tapped_NVIEliminar_Tapped_That = (this as global::Uno.UI.DataBinding.IWeakReferenceProvider).WeakReference;
 								/* second level */ c10.Tapped += (NVIEliminar_Tapped_sender,NVIEliminar_Tapped_e) => (Tapped_NVIEliminar_Tapped_That.Target as MainPage)?.NVIEliminar_Tapped(NVIEliminar_Tapped_sender,NVIEliminar_Tapped_e);
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 								c10.CreationComplete();
 							}
 							))
@@ -240,29 +240,29 @@ namespace UNOUI.Pages
 							Name = "MyFrame",
 							// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\MainPage.xaml (Line 39:14)
 						}
-						.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler6)(c11 => 
+						.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler6)(c11 => 
 						{
 							nameScope.RegisterName("MyFrame", c11);
 							this.MyFrame = c11;
-							global::Uno.UI.FrameworkElementHelper.SetBaseUri(c11, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+							global::Uno.UI.FrameworkElementHelper.SetBaseUri(c11, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 							c11.CreationComplete();
 						}
 						))
 						,
 					}
-					.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler7)(c12 => 
+					.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler7)(c12 => 
 					{
 						global::Windows.UI.Xaml.Controls.Grid.SetRow(c12, 1/* int/, 1, Grid/Row */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c12, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c12, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 						c12.CreationComplete();
 					}
 					))
 					,
 				}
 			}
-			.MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply((MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions.XamlApplyHandler2)(c13 => 
+			.MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply((MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions.XamlApplyHandler2)(c13 => 
 			{
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c13, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c13, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 				c13.CreationComplete();
 			}
 			))
@@ -271,7 +271,7 @@ namespace UNOUI.Pages
 			this
 			.GenericApply((c14 => 
 			{
-				// Source C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Shared\Pages\MainPage.xaml (Line 1:2)
+				// Source C:\Jprado\UNOUI\UNOUI\UNOUI.Shared\Pages\MainPage.xaml (Line 1:2)
 				
 				// WARNING Property c14.base does not exist on {http://schemas.microsoft.com/winfx/2006/xaml/presentation}Page, the namespace is http://www.w3.org/XML/1998/namespace. This error was considered irrelevant by the XamlFileGenerator
 			}
@@ -282,7 +282,7 @@ namespace UNOUI.Pages
 				global::Uno.UI.ResourceResolverSingleton.Instance.ApplyResource(c15, global::Windows.UI.Xaml.Controls.Page.BackgroundProperty, "ApplicationPageBackgroundThemeBrush", isThemeResourceExtension: true, isHotReloadSupported: true, context: global::UNOUI.Droid.GlobalStaticResources.__ParseContext_);
 				/* _isTopLevelDictionary:False */
 				this._component_0 = c15;
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c15, "file:///C:/Jprado/PresentacionUNO/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c15, "file:///C:/Jprado/UNOUI/UNOUI/UNOUI.Shared/Pages/MainPage.xaml");
 				c15.CreationComplete();
 			}
 			))
@@ -401,60 +401,60 @@ namespace UNOUI.Pages
 }
 namespace UNOUI.Droid
 {
-	static class MainPage_fd8ed1aa4b1ee13cc719edbe83837742XamlApplyExtensions
+	static class MainPage_56c22052d61aeea41584f75b767d87a5XamlApplyExtensions
 	{
 		public delegate void XamlApplyHandler0(global::Windows.UI.Xaml.Controls.RowDefinition instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.RowDefinition MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.RowDefinition instance, XamlApplyHandler0 handler)
+		public static global::Windows.UI.Xaml.Controls.RowDefinition MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.RowDefinition instance, XamlApplyHandler0 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler1(global::Windows.UI.Xaml.Controls.TextBlock instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.TextBlock MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.TextBlock instance, XamlApplyHandler1 handler)
+		public static global::Windows.UI.Xaml.Controls.TextBlock MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.TextBlock instance, XamlApplyHandler1 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler2(global::Windows.UI.Xaml.Controls.Grid instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.Grid MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.Grid instance, XamlApplyHandler2 handler)
+		public static global::Windows.UI.Xaml.Controls.Grid MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.Grid instance, XamlApplyHandler2 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler3(global::Windows.UI.Xaml.Controls.StackPanel instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.StackPanel MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.StackPanel instance, XamlApplyHandler3 handler)
+		public static global::Windows.UI.Xaml.Controls.StackPanel MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.StackPanel instance, XamlApplyHandler3 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler4(global::Windows.UI.Xaml.Controls.SymbolIcon instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.SymbolIcon MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.SymbolIcon instance, XamlApplyHandler4 handler)
+		public static global::Windows.UI.Xaml.Controls.SymbolIcon MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.SymbolIcon instance, XamlApplyHandler4 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler5(global::Windows.UI.Xaml.Controls.NavigationViewItem instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.NavigationViewItem MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.NavigationViewItem instance, XamlApplyHandler5 handler)
+		public static global::Windows.UI.Xaml.Controls.NavigationViewItem MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.NavigationViewItem instance, XamlApplyHandler5 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler6(global::Windows.UI.Xaml.Controls.Frame instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.Frame MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.Frame instance, XamlApplyHandler6 handler)
+		public static global::Windows.UI.Xaml.Controls.Frame MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.Frame instance, XamlApplyHandler6 handler)
 		{
 			handler(instance);
 			return instance;
 		}
 		public delegate void XamlApplyHandler7(global::Windows.UI.Xaml.Controls.NavigationView instance);
 		[System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-		public static global::Windows.UI.Xaml.Controls.NavigationView MainPage_fd8ed1aa4b1ee13cc719edbe83837742_XamlApply(this global::Windows.UI.Xaml.Controls.NavigationView instance, XamlApplyHandler7 handler)
+		public static global::Windows.UI.Xaml.Controls.NavigationView MainPage_56c22052d61aeea41584f75b767d87a5_XamlApply(this global::Windows.UI.Xaml.Controls.NavigationView instance, XamlApplyHandler7 handler)
 		{
 			handler(instance);
 			return instance;

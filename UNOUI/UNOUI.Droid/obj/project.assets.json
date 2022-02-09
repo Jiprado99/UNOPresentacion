@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v10.0": {
+      "Autofac/6.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
       "CommonServiceLocator/2.0.5": {
         "type": "package",
         "compile": {
@@ -1198,6 +1210,27 @@
     }
   },
   "libraries": {
+    "Autofac/6.3.0": {
+      "sha512": "gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "type": "package",
+      "path": "autofac/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.6.3.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.pdb",
+        "lib/net5.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "CommonServiceLocator/2.0.5": {
       "sha512": "Md2q9f6hAuUAm6IWTybQbYvxhDAs2dqmsudVDghpg0Q+C0M2KkmiTDjeGx1PsYhnZPvp+hy1Cx99v0VPW9W6/g==",
       "type": "package",
@@ -3808,6 +3841,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v10.0": [
+      "Autofac >= 6.3.0",
       "Microsoft.Extensions.Logging >= 5.0.0",
       "Microsoft.Extensions.Logging.Console >= 5.0.0",
       "System.Net.Http >= 4.3.4",
@@ -3824,11 +3858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
+      "projectUniqueName": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
       "projectName": "UNOUI.Droid",
-      "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
+      "projectPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\UNOUI.Droid.csproj",
       "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-      "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Droid\\obj\\",
+      "outputPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3855,6 +3889,10 @@
     "frameworks": {
       "monoandroid10.0": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[6.3.0, )"
+          },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
             "version": "[5.0.0, )"

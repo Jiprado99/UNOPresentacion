@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Skia.Wpf.Host\obj\Release\netcoreapp3.1\
+C:\Jprado\UNOUI\UNOUI\UNOUI.Skia.Wpf.Host\obj\Release\netcoreapp3.1\
 UNOUI.Skia.Wpf.Host
 none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;UNO_REFERENCE_API;HAS_UNO_SKIA;HAS_UNO_SKIA_WPF
-C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Skia.Wpf.Host\App.xaml
+C:\Jprado\UNOUI\UNOUI\UNOUI.Skia.Wpf.Host\App.xaml
 11407045341
 1-809296145
 51566534978
-193-488769405
+231451496761
 MainWindow.xaml;
 
 True

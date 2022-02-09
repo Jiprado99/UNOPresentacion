@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+hg4/MiqjMclOgUU7tNGUYH4NH9Dgfck73Kz3hwjmNS+jOOptPrm36/nf/jkPcXOLp+QYUHWDiHcl88ZEr8rAw==",
+  "dgSpecHash": "0GsoNYGZyJcFu22Cnb4lgklt4WVgSm1eNhl8fJLNNWKxKmQN8Xw2fHan1albrvDhM+sP4aD0osRWlwEZ48OzbQ==",
   "success": true,
-  "projectFilePath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Wpf.Host\\UNOUI.Skia.Wpf.Host.csproj",
+  "projectFilePath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Wpf.Host\\UNOUI.Skia.Wpf.Host.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

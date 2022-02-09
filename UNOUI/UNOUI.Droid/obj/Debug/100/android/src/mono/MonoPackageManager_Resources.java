@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "UNOUI.Droid.dll" comes first in this list. */
 		"UNOUI.Droid.dll",
+		"Autofac.dll",
 		"CommonServiceLocator.dll",
 		"Microsoft.Bcl.AsyncInterfaces.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

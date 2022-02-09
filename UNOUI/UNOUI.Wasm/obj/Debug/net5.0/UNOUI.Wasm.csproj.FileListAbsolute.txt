@@ -399,3 +399,12 @@ C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\r
 C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.pdb
 C:\Users\Mpicca\Source\Repos\UNOPresentacion\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.genruntimeconfig.cache
 C:\Jprado\PresentacionUNO\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.csproj.AssemblyReference.cache
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.csproj.AssemblyReference.cache
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.AssemblyInfoInputs.cache
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.AssemblyInfo.cs
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.csproj.CoreCompileInputs.cache
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.MvcApplicationPartsAssemblyInfo.cache
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.dll
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\ref\UNOUI.Wasm.dll
+C:\Jprado\UNOUI\UNOUI\UNOUI.Wasm\obj\Debug\net5.0\UNOUI.Wasm.pdb

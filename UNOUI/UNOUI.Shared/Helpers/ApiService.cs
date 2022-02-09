@@ -5,15 +5,16 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using UNOUI.Helpers.Interfaces;
 using UNOUI.Models;
 
 namespace UNOUI.Helpers
 {
-    public class ApiService
+    public class ApiService : IApiService
     {
         static private HttpClient Client { get; set; }
 
-        private static void CreateClient()
+        private void CreateClient()
         {
             HttpClientHandler handler = new HttpClientHandler()
             {
@@ -22,11 +23,11 @@ namespace UNOUI.Helpers
 
             Client = new HttpClient(handler)
             {
-                BaseAddress = new Uri("https://10.11.12.166:7094/")
+                BaseAddress = new Uri("https://apipalabras.herokuapp.com/")
             };
         }
 
-        public static async Task<Response> RecuperarPalabraAsync()
+        public async Task<Response> RecuperarPalabraAsync()
         {
             try
             {
@@ -59,7 +60,7 @@ namespace UNOUI.Helpers
             }
         }
 
-        public static async Task<Response> RecuperarLetraAsync(char letra)
+        public async Task<Response> RecuperarLetraAsync(char letra)
         {
             try
             {
@@ -93,12 +94,12 @@ namespace UNOUI.Helpers
             }
         }
 
-        public static async Task<Response> PostAsync<T>(string controller, T model)
+        public async Task<Response> PostAsync<T, O>(string controller, T model)
         {
             try
             {
                 string request = JsonConvert.SerializeObject(model);
-                StringContent content = new StringContent(request, Encoding.UTF8, "application/json");
+                var content = new StringContent(request, Encoding.UTF8, "application/json");
 
                 if (Client == null)
                     CreateClient();
@@ -114,7 +115,7 @@ namespace UNOUI.Helpers
                     };
                 }
 
-                T item = JsonConvert.DeserializeObject<T>(result);
+                O item = JsonConvert.DeserializeObject<O>(result);
                 return new Response
                 {
                     IsSuccess = true,
@@ -131,7 +132,7 @@ namespace UNOUI.Helpers
             }
         }
 
-        public static async Task<Response> DeleteAsync()
+        public async Task<Response> DeleteAsync()
         {
             try
             {

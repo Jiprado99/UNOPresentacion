@@ -18,7 +18,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AFacHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ApiService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Interfaces\IApiService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Palabra.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Response.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\AgregarPage.xaml.cs">

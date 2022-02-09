@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj": {}
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj": {
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj",
+        "projectUniqueName": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj",
         "projectName": "UNOUI",
-        "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj",
+        "projectPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.iOS\\UNOUI.iOS.csproj",
         "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.iOS\\obj\\",
+        "outputPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -38,6 +38,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[5.0.0, )"

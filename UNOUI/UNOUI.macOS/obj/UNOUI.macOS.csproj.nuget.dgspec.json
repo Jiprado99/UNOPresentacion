@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj": {}
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj": {}
   },
   "projects": {
-    "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj": {
+    "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj",
+        "projectUniqueName": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj",
         "projectName": "UNOUI.macOS",
-        "projectPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj",
+        "projectPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.macOS\\UNOUI.macOS.csproj",
         "packagesPath": "C:\\Users\\jprado\\.nuget\\packages\\",
-        "outputPath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.macOS\\obj\\",
+        "outputPath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.macOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -38,6 +38,10 @@
       "frameworks": {
         "xamarinmac20": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[5.0.0, )"

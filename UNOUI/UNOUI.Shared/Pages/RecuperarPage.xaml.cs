@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Autofac;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UNOUI.Helpers;
+using UNOUI.Helpers.Interfaces;
 using UNOUI.Models;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -26,6 +28,8 @@ namespace UNOUI.Pages
     /// </summary>
     public sealed partial class RecuperarPage : Page
     {
+        private IApiService ApiService => AFacHelper.Container.Resolve<IApiService>();
+
         public RecuperarPage()
         {
             this.InitializeComponent();

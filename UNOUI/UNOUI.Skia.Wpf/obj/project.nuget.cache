@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oaSS3Fei6Io6DSpvekeInBh4ggDWeQqtBEwgiDpvsgO0D7rbBGWDOt3tIGlzy5OBVERhNyllLrrOr2yDGBzxew==",
+  "dgSpecHash": "exJB4N97Bm33QbifoZhBdGhXPYWxdbhl35vwm9GemDojI7HDc4/g4h7nv+Ux2WNMfYLVX8I0t9jME9kQnK0A1w==",
   "success": true,
-  "projectFilePath": "C:\\Jprado\\PresentacionUNO\\UNOUI\\UNOUI.Skia.Wpf\\UNOUI.Skia.Wpf.csproj",
+  "projectFilePath": "C:\\Jprado\\UNOUI\\UNOUI\\UNOUI.Skia.Wpf\\UNOUI.Skia.Wpf.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jprado\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\jprado\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
