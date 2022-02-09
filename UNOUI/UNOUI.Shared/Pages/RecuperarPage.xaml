@@ -65,10 +65,26 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:Name="BtnRecuperarPalabra" FontSize="30" Content="Recuperar Palabra" Tapped="BtnRecuperarPalabra_Tapped"/>
+                    <Button x:Name="BtnRecuperarPalabra" FontSize="20" Tapped="BtnRecuperarPalabra_Tapped" Height="50" MinWidth="210">
+                        <Button.ContentTemplate>
+                            <DataTemplate>
+                                <Viewbox StretchDirection="DownOnly" Margin="6">
+                                    <TextBlock>Recuperar Palabra</TextBlock>
+                                </Viewbox>
+                            </DataTemplate>
+                        </Button.ContentTemplate>
+                    </Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:Name="BtnRecuperarLetra" FontSize="30" Content="Recuperar por Letra" Tapped="BtnRecuperarLetra_Tapped"/>
+                    <Button x:Name="BtnRecuperarLetra" FontSize="20" Tapped="BtnRecuperarLetra_Tapped" Height="50" MinWidth="210">
+                        <Button.ContentTemplate>
+                            <DataTemplate>
+                                <Viewbox StretchDirection="DownOnly" Margin="6" >
+                                    <TextBlock>Recuperar por Letra:</TextBlock>
+                                </Viewbox>
+                            </DataTemplate>
+                        </Button.ContentTemplate>
+                    </Button>
                     <TextBox x:Name="TxbLetra" FontSize="30" MaxLength="1"/>
                 </StackPanel>
             </Grid>

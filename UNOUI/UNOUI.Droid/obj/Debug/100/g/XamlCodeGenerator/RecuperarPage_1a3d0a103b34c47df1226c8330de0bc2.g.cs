@@ -306,7 +306,6 @@ namespace UNOUI.Pages
 											{
 												IsParsing = true,
 												Name = "BtnRecuperarPalabra",
-												Content = @"Recuperar Palabra"/* object/, Recuperar Palabra, Button/Content */,
 												ContentTemplate = 												new global::Windows.UI.Xaml.DataTemplate(this , __owner => 												new _RecuperarPage_1a3d0a103b34c47df1226c8330de0bc2_UNOUIPagesRecuperarPageSC1().Build(__owner)
 												)												,
 												// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 68:22)
@@ -344,7 +343,6 @@ namespace UNOUI.Pages
 											{
 												IsParsing = true,
 												Name = "BtnRecuperarLetra",
-												Content = @"Recuperar por Letra"/* object/, Recuperar por Letra, Button/Content */,
 												ContentTemplate = 												new global::Windows.UI.Xaml.DataTemplate(this , __owner => 												new _RecuperarPage_1a3d0a103b34c47df1226c8330de0bc2_UNOUIPagesRecuperarPageSC2().Build(__owner)
 												)												,
 												// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 79:22)
@@ -673,13 +671,14 @@ namespace UNOUI.Pages
 					new global::Windows.UI.Xaml.Controls.TextBlock
 					{
 						IsParsing = true,
+						FontStretch = global::Windows.UI.Text.FontStretch.Expanded/* Windows.UI.Text.FontStretch/, Expanded, TextBlock/FontStretch */,
 						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 72:38)
 						Inlines = 
 						{
 							new global::Windows.UI.Xaml.Documents.Run
 							{
 								Text = "Recuperar Palabra"/* string/, Recuperar Palabra, Run/Text */,
-								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 72:67)
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 72:90)
 							}
 							,
 						}
@@ -723,13 +722,14 @@ namespace UNOUI.Pages
 					new global::Windows.UI.Xaml.Controls.TextBlock
 					{
 						IsParsing = true,
+						FontStretch = global::Windows.UI.Text.FontStretch.Expanded/* Windows.UI.Text.FontStretch/, Expanded, TextBlock/FontStretch */,
 						// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 83:38)
 						Inlines = 
 						{
 							new global::Windows.UI.Xaml.Documents.Run
 							{
-								Text = "Recuperar por Letra"/* string/, Recuperar por Letra, Run/Text */,
-								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 83:69)
+								Text = "Recuperar por Letra:"/* string/, Recuperar por Letra:, Run/Text */,
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 83:93)
 							}
 							,
 						}

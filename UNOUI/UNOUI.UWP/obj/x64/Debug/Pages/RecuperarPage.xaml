@@ -65,10 +65,10 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:ConnectionId='6' x:Name="BtnRecuperarPalabra" Content="Recuperar Palabra"                                    >
+                    <Button x:ConnectionId='6' x:Name="BtnRecuperarPalabra" FontSize="1"                                    >
                         <Button.ContentTemplate>
                             <DataTemplate>
-                                <Viewbox>
+                                <Viewbox VerticalAlignment="Center">
                                     <TextBlock>Recuperar Palabra</TextBlock>
                                 </Viewbox>
                             </DataTemplate>
@@ -76,11 +76,11 @@
                     </Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Button x:ConnectionId='3' x:Name="BtnRecuperarLetra" Content="Recuperar por Letra"                                  >
+                    <Button x:ConnectionId='3' x:Name="BtnRecuperarLetra" FontSize="1"                                  >
                         <Button.ContentTemplate>
                             <DataTemplate>
-                                <Viewbox>
-                                    <TextBlock>Recuperar por Letra</TextBlock>
+                                <Viewbox VerticalAlignment="Center">
+                                    <TextBlock>Recuperar por Letra:</TextBlock>
                                 </Viewbox>
                             </DataTemplate>
                         </Button.ContentTemplate>

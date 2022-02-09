@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-09T14:31:19.360</Modified>
+      <Modified>2022-02-09T17:14:07.337</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\UNOUI.exe">
       <PackagePath>entrypoint\UNOUI.exe</PackagePath>
-      <Modified>2022-02-09T14:31:17.870</Modified>
+      <Modified>2022-02-09T17:14:06.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jprado\.nuget\packages\autofac\6.3.0\lib\netstandard2.0\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -157,23 +157,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\UNOUI.xr.xml">
       <PackagePath>UNOUI.xr.xml</PackagePath>
-      <Modified>2022-02-09T14:31:17.693</Modified>
+      <Modified>2022-02-09T17:14:06.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-09T14:31:17.733</Modified>
+      <Modified>2022-02-09T17:14:06.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\Pages\AgregarPage.xbf">
       <PackagePath>Pages\AgregarPage.xbf</PackagePath>
-      <Modified>2022-02-09T14:31:17.734</Modified>
+      <Modified>2022-02-09T17:14:06.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\Pages\MainPage.xbf">
       <PackagePath>Pages\MainPage.xbf</PackagePath>
-      <Modified>2022-02-09T14:31:17.734</Modified>
+      <Modified>2022-02-09T17:14:06.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\Pages\RecuperarPage.xbf">
       <PackagePath>Pages\RecuperarPage.xbf</PackagePath>
-      <Modified>2022-02-09T14:31:17.734</Modified>
+      <Modified>2022-02-09T17:14:06.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -185,11 +185,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-09T14:31:18.401</Modified>
+      <Modified>2022-02-09T17:14:06.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Jprado\UNOUI\UNOUI\UNOUI.UWP\bin\x64\Debug\Core\UNOUI.exe">
       <PackagePath>UNOUI.exe</PackagePath>
-      <Modified>2022-02-09T14:31:19.352</Modified>
+      <Modified>2022-02-09T17:14:07.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jprado\.nuget\packages\microsoft.ui.xaml\2.6.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
