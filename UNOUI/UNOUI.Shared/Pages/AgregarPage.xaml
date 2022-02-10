@@ -19,7 +19,9 @@
             <RowDefinition Height="5*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="1" Grid.Row="0" Text="Agregar Palabras" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Viewbox Grid.Column="1" Grid.Row="0" MaxWidth="500">
+            <TextBlock Text="Agregar Palabras" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Viewbox>
         <StackPanel Grid.Row="1" Grid.Column="1">
             <TextBlock Text="Ingrese una palabra" FontSize="30" Margin="5"/>
             <TextBox x:Name="TxtPalabra" FontSize="30" Margin="5"  KeyUp="TxtPalabra_KeyUp"/>

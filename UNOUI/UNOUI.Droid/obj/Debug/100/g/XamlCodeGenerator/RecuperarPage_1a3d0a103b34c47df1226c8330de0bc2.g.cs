@@ -384,7 +384,7 @@ namespace UNOUI.Pages
 								VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, TextBlock/VerticalAlignment */,
 								Padding = new global::Windows.UI.Xaml.Thickness(20)/* Windows.UI.Xaml.Thickness/, 20, TextBlock/Padding */,
 								Visibility = global::Windows.UI.Xaml.Visibility.Collapsed/* Windows.UI.Xaml.Visibility/, Collapsed, TextBlock/Visibility */,
-								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 105:14)
+								// Source ..\..\..\..\..\..\..\UNOUI.Shared\Pages\RecuperarPage.xaml (Line 88:14)
 							}
 							.RecuperarPage_1a3d0a103b34c47df1226c8330de0bc2_XamlApply((RecuperarPage_1a3d0a103b34c47df1226c8330de0bc2XamlApplyExtensions.XamlApplyHandler1)(c23 => 
 							{
