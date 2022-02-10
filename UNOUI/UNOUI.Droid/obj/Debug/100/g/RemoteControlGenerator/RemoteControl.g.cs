@@ -9,8 +9,8 @@
 
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::a0d7:abc1:86e8:72e1]", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("10.11.12.166", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::e022:84a5:1c47:f20d]", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("172.31.176.1", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("[fe80::ac87:1f60:9be7:96af]", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("172.31.32.1", 0)]
 [assembly: global::Uno.UI.RemoteControl.ProjectConfigurationAttribute(
 @"C:\Jprado\UNOUI\UNOUI\UNOUI.Droid\UNOUI.Droid.csproj",
 

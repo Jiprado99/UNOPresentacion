@@ -35,7 +35,12 @@
       "ProjectGuid": "59b5bcf7-fbcf-49f0-8083-0c59e5608f16",
       "DisplayName": "UNOUI.Wasm",
       "ColorIndex": 5
+    },
+    "3b474c0b-144b-457e-8a0e-a96d03363827": {
+      "ProjectGuid": "3b474c0b-144b-457e-8a0e-a96d03363827",
+      "DisplayName": "UNOUI.Skia.Wpf",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

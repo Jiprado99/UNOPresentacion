@@ -64,13 +64,17 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Grid VerticalAlignment="Stretch" HorizontalAlignment="Center" Grid.Row="0">
+                <Grid Grid.Row="0" Padding="5">
                     <Button x:ConnectionId='5' x:Name="BtnRecuperarPalabra"                                     Content="Recuperar Palabra" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
                 </Grid>
-                <StackPanel  Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Row="1">
-                    <Button x:ConnectionId='3' x:Name="BtnRecuperarLetra"                                   Content="Recuperar por Letra:" VerticalAlignment="Stretch"/>
-                    <TextBox x:ConnectionId='4' x:Name="TxbLetra" FontSize="30" MaxLength="1"/>
-                </StackPanel>
+                <Grid Grid.Row="1" Padding="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="60"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:ConnectionId='3' x:Name="BtnRecuperarLetra"                                   Content="Recuperar por Letra:" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+                    <TextBox x:ConnectionId='4' x:Name="TxbLetra" FontSize="25" MaxLength="1" MaxWidth="15" VerticalContentAlignment="Center" Grid.Column="1"/>
+                </Grid>
             </Grid>
             <TextBlock x:ConnectionId='2' Grid.Row="1" x:Name="TxtError" Text="Error" FontSize="15" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
         </Grid>

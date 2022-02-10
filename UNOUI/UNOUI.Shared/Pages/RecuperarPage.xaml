@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="200"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
             <TextBlock Text="Palabra" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
@@ -60,21 +60,30 @@
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <Grid Grid.Row="0" Padding="5">
-                    <Button x:Name="BtnRecuperarPalabra" Tapped="BtnRecuperarPalabra_Tapped" Content="Recuperar Palabra" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
-                </Grid>
-                <Grid Grid.Row="1" Padding="5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="60"/>
-                    </Grid.ColumnDefinitions>
-                    <Button x:Name="BtnRecuperarLetra" Tapped="BtnRecuperarLetra_Tapped" Content="Recuperar por Letra:" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
-                    <TextBox x:Name="TxbLetra" FontSize="25" MaxLength="1" MaxWidth="15" VerticalContentAlignment="Center" Grid.Column="1"/>
-                </Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="BtnRecuperarPalabra" Tapped="BtnRecuperarPalabra_Tapped" Content="Recuperar Palabra" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <Viewbox>
+                                <TextBlock>Recuperar Palabra</TextBlock>
+                            </Viewbox>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+                <Button x:Name="BtnRecuperarLetra" Grid.Column="1" Tapped="BtnRecuperarLetra_Tapped" Content="Recuperar por Letra:" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <Viewbox>
+                                <TextBlock>Recuperar por Letra:</TextBlock>
+                            </Viewbox>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+                <TextBox x:Name="TxbLetra" FontSize="25" MaxLength="1" MaxWidth="15" VerticalContentAlignment="Center" Grid.Column="2"/>
             </Grid>
             <TextBlock Grid.Row="1" x:Name="TxtError" Text="Error" FontSize="15" VerticalAlignment="Center" Padding="20" Visibility="Collapsed"/>
         </Grid>
